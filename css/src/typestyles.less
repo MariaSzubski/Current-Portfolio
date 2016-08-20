@@ -1,0 +1,55 @@
+// UI Colors
+@import 'colors.less';
+
+// Font Families
+@import 'https://fonts.googleapis.com/css?family=Noto+Serif|Roboto+Condensed:300,400,700|Roboto:300,400';
+
+/*                          Ideal Divisions */
+// .f-sectionHeader
+// .f-cardHeader
+// .f-serifCopy
+
+
+@fs-base:       1.05em;
+@fs-1x:         1.25em;
+@fs-2x:         1.5em;
+@fs-3x:         3.5em;
+
+.ff-regular{
+    font-family: 'Roboto', 'Helvetica', 'Trebuchet MS', sans-serif;
+}
+
+.ff-condensed{
+    font-family: 'Roboto Condensed', 'Arial Narrow', sans-serif;
+}
+
+.ff-serif{
+    font-family: 'Noto Serif', 'Georgia', serif;
+}
+
+
+// Mixins
+
+.f(@size, @weight){
+    font-size: @size;
+    font-weight: @weight;
+}
+
+.f-sectionHeader{
+    .ff-condensed;
+    .f(@fs-3x, 300);
+    text-transform: 	uppercase;
+    text-align: 		center;
+    padding: 			36px 0px;
+    box-sizing: 		border-box;
+    width: 				100%;
+}
+
+.f-contentHeader{
+    .f(@fs-1x, 500);
+    margin-bottom: 		6px;
+}
+
+.f-copy{
+    .f(@fs-base, 300);
+}
