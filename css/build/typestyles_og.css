@@ -262,6 +262,9 @@ a.button {
 	-webkit-transition: 	border-color .3s ease,
 								background-color .3s ease,
 								color .3s ease;
+	-webkit-transition: 		border-color .3s ease,
+							background-color .3s ease,
+							color .3s ease;
 	transition: 		border-color .3s ease,
 							background-color .3s ease,
 							color .3s ease;
@@ -289,6 +292,9 @@ a.button:hover {
 	-webkit-transition: 	border-color .3s ease,
 								background-color .3s ease,
 								color .3s ease;
+	-webkit-transition: 		border-color .3s ease,
+							background-color .3s ease,
+							color .3s ease;
 	transition: 		border-color .3s ease,
 							background-color .3s ease,
 							color .3s ease;
