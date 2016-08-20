@@ -1,0 +1,169 @@
+/*
+
+	TABLE OF CONTENTS
+		Global Styles
+		Footer
+
+
+	COLORS
+		Yellow:	 	#FCC457
+		Green:		#0B9E8C
+		Navy: 		#2B2E3C
+		Dark Navy/Black: 	#1B1E2C
+		BG Lines:	url('../img/bg.svg')
+		Box Shadow: 0px 0px 5px rgba(0,0,0,.5)
+
+
+
+	MEDIA QUERY BREAK POINTS
+		(max-width: 48em)
+		(min-width: 769px) and (max-width: 64em)
+		(min-width: 1025px) and (max-width: 1680px)
+		(min-width: 1681px)
+
+*/
+
+/*                                     Global Styles  */
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+ul{
+	list-style-type: none;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+section{
+	padding-bottom: 36px;
+}
+
+/*                                     Footer */
+
+footer{
+	padding: 0px 36px 36px 36px;
+	background-color: #fcc457;
+	border-top: 4px solid #1B1E2C;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+#contactSocial ul{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+#contactSocial li{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+
+#contactSocial a{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: column;
+	    -ms-flex-flow: column;
+	        flex-flow: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 0px 18px;
+	color: #2b2e3c;
+	padding: 0px;
+}
+
+#contactSocial div{
+	height: 51px;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+
+#contactSocial img{
+	height: 102px;
+	width: 48px;
+}
+
+#contactSocial a:hover img{
+	margin-top: -51px;
+	cursor: pointer;
+}
+
+#copyright{
+	-webkit-flex-basis: 100%;
+	    -ms-flex-preferred-size: 100%;
+	        flex-basis: 100%;
+	text-align: center;
+	padding-top: 36px;
+}
+
+
+@media handheld, (max-width: 48em){
+
+	footer{
+		padding: 0px 24px 36px 24px;
+
+	}
+
+	#contactSocial ul{
+		-webkit-flex-flow: column;
+		    -ms-flex-flow: column;
+		        flex-flow: column;
+		-webkit-box-align: start;
+		-webkit-align-items: flex-start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+	}
+
+	#contactSocial li{
+		width:50%;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#contactSocial a{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: start;
+		-webkit-justify-content: flex-start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		margin: 12px 0px;
+	}
+
+	#contactSocial div{
+		margin-bottom: 4px;
+	}
+
+}
