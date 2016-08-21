@@ -1,18 +1,25 @@
 module.exports = function(grunt){
 	grunt.initConfig({
-		concat: {
-			css: {
-				src: 'css/build/!(colors)!(fotorama)*.css',
-				dest: 'css/build/styles.css',
-			},
-		},
 		watch: {
 			less: {
 				files: ['css/src/!(colors)*.less'],
-				tasks: ['less'], // run single method with concat:method_name
+				tasks: ['less', 'postcss'], // run single method with concat:method_name
 				options: {
-			      livereload: true,
-			    },
+				  livereload: true,
+				},
+			},
+			scripts: {
+				files: ['scripts/src/*.js'],
+				tasks: ['uglify'], // run single method with concat:method_name
+				options: {
+				  livereload: true,
+				},
+			},
+		},
+		concat: {
+			css: {
+				src: ['css/build/*.css','!css/build/fotorama.css', '!css/build/styles.css', '!css/build/colors.css', '!css/build/type_mixins.css'],
+				dest: 'css/build/styles.css',
 			},
 		},
 		less: {
@@ -31,13 +38,24 @@ module.exports = function(grunt){
 					require('autoprefixer')({
 						browsers: ['last 2 versions', '> 5%'],
 					}), // add vendor prefixes
-					require('cssnano')() //minify
+					//require('cssnano')() //minify
 				]
 			},
 			dist: {
 				src: 'css/build/*.css'
 			}
-		}
+		},
+		uglify: {
+			my_target: {
+				files:[{
+					expand: true,
+					cwd:	'scripts/src',
+					src:	'*.js',
+					dest:	'scripts/build',
+					ext:	'.min.js'
+				}]
+			}
+		},
 	});
 
 	// Enable Dependencies
@@ -45,6 +63,7 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-postcss');
 	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.registerTask('default', ['watch']);
 	grunt.registerTask('finalize', ['concat', 'postcss']);
 };
