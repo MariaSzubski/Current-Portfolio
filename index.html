@@ -8,10 +8,10 @@
 		<link rel="stylesheet" href="css/build/master.css">
 		<link rel="stylesheet" href="css/build/intro.css">
 	</head>
-	<body>
+	<body id="idxContainer">
 
-		<nav id="nav">
-			<div>
+		<nav>
+			<div id="nav">
 				<a>Menu</a>
 				<a href="#workSamples">Work Samples</a>
 				<a href="#experience">Experience</a>
@@ -30,7 +30,7 @@
 				<li><a href="https://github.com/MariaSzubski" target="_blank"><img src="img/soc_github.svg" alt="GitHub" title="GitHub"></a></li>
 				<li><a href="mailto:mariaszubski@gmail.com" target="_blank"><img src="img/soc_email.svg" alt="Email" title="Email">></a></li>
 				<li><a href="https://twitter.com/MariaSzubski" target="_blank"><img src="img/soc_twitter.svg" alt="Twitter" title="Twitter"></a></li>
-				<li><a href="https://www.pinterest.com/MariaSzubski/" target="_blank"><img src="img/soc_pinterest.svg" alt="Pinterest" title="Pinterest"></a></li>
+				<li><a href="https://www.hackerrank.com/MariaSzubski" target="_blank"><img src="img/soc_hackerrank.svg" alt="Hackerrank" title="Hackerrank"></a></li>
 			</ul>
 			<a href="assets/MariaSzubski_Resume.pdf" class="button" download>Download Resume</a>
 		</header>
@@ -52,16 +52,8 @@
 					</a>
 				</div>
 				<div id="wsGroup_1">
+
 					<div class="caseStudy" id="ws_2">
-						<a href="projects/ikea.html">
-							<img src="img/proj_ikea.png" alt="IKEA RFID Experience">
-							<div class="label">
-								<h2>IKEA RFID Experience</h2>
-								<p>UX Design • Wayfinding • Animated Visualization</p>
-							</div>
-						</a>
-					</div>
-					<div class="caseStudy" id="ws_3">
 						<a href="projects/guitar.html">
 							<img src="img/proj_guitar.jpg" alt="Guitar Practice Log">
 							<div class="label">
@@ -70,9 +62,7 @@
 							</div>
 						</a>
 					</div>
-				</div>
-				<div id="wsGroup_2">
-					<div class="caseStudy" id="ws_4">
+					<div class="caseStudy" id="ws_3">
 						<a href="projects/js.html">
 							<img src="img/proj_codeSnippets.png" alt="JavaScript Code Snippets">
 							<div class="label">
@@ -80,6 +70,18 @@
 							</div>
 						</a>
 					</div>
+				</div>
+				<div id="wsGroup_2">
+					<div class="caseStudy" id="ws_4">
+						<a href="projects/ikea.html">
+							<img src="img/proj_ikea.png" alt="IKEA RFID Experience">
+							<div class="label">
+								<h2>IKEA RFID Experience</h2>
+								<p>UX Design • Wayfinding • Animated Visualization</p>
+							</div>
+						</a>
+					</div>
+
 					<div class="caseStudy" id="ws_5">
 						<a href="projects/projects/espn.html">
 							<img src="img/proj_titleix.jpg" alt="espnW: The Power of IX">
@@ -342,19 +344,6 @@
 					<article>
 						<img src="img/i_info.svg" alt="info" title="Details">
 						<div class="layer1">
-							<h2>Google's Women Techmakers</h2>
-							<h4>2016 – Present</h4>
-							<img src="img/i_group.svg" alt="group" title="Community">
-						</div>
-						<div class="layer2">
-							<p>Google's Women Techmakers is a program that provides visibility, community, and resources for women in technology. With their assistance I attended Google I/O 2016. <a href="https://www.womentechmakers.com/" target="_blank">Learn more about Women Techmakers.</a></p>
-						</div>
-					</article>
-
-
-					<article>
-						<img src="img/i_info.svg" alt="info" title="Details">
-						<div class="layer1">
 							<h2>Simply Excellent Award</h2>
 							<h3>Nielsen Family</h3>
 							<h4>December 2015</h4>
@@ -490,9 +479,11 @@
 				<ul>
 					<li><a href="https://www.linkedin.com/in/MariaSzubski" target="_blank"><div><img src="img/soc_linkedin.svg" alt="LinkedIn"></div>LinkedIn</a></li>
 					<li><a href="https://github.com/MariaSzubski" target="_blank"><div><img src="img/soc_github.svg" alt="GitHub"></div>GitHub</a></li>
-					<li><a href="mailto:mariaszubski@gmail.com" target="_blank"><div><img src="img/soc_email.svg" alt="Email Me"></div>Email</a></li>
+					<li><a href="https://www.hackerrank.com/MariaSzubski" target="_blank"><div><img src="img/soc_hackerrank.svg" alt="Hackerrank"></div>Hackerrank</a></li>
+
 					<li><a href="https://twitter.com/MariaSzubski" target="_blank"><div><img src="img/soc_twitter.svg" alt="Twitter"></div>Twitter</a></li>
-					<li><a href="https://www.pinterest.com/MariaSzubski/" target="_blank"><div><img src="img/soc_pinterest.svg" alt="Pinterest"></div>Pinterest</a></li>
+					<li><a href="mailto:mariaszubski@gmail.com" target="_blank"><div><img src="img/soc_email.svg" alt="Email Me"></div>Email</a></li>
+
 				</ul>
 			</div>
 			<div id="copyright">
@@ -501,7 +492,7 @@
 		</footer>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="scripts/build/js.js"></script>
+		<script src="scripts/build/js.min.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
