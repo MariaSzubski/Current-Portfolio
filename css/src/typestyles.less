@@ -130,6 +130,14 @@ p{
 	margin-bottom: 1em;
 	max-width: 792px;
 
+	header & {
+		.ff-serif;
+		font-size: @fs-2x;
+		text-align: center;
+		color: @navy;
+		.t-shadow;
+	}
+
 	.label &{
 		.ff-reg;
 		font-size: @fs-base;
@@ -251,13 +259,13 @@ a{
 @media handheld, (max-width: 48em){
 	h1{
 		font-size: 2.7rem !important;
-		padding: .6em 0em .4em 0em !important;
+		padding: 0.6em 0em 0.4em 0em !important;
 
 		header &{
-			font-size: 2.8rem !important;
-			padding-bottom: 0.1em !important;
-			padding-left: 0px;
-			padding-right: 0px;
+			font-size: 1.7em !important;
+			padding-bottom: 0.4em !important;
+			padding-left: 0.6px;
+			padding-right: 0.6px;
 		}
 	}
 
@@ -295,6 +303,10 @@ a{
 
 	p{
 		font-size: 1rem !important;
+
+		header & {
+			font-size: 1.125em !important;
+		}
 
 		#invContainer &{
 			font-size: 0.9rem !important;
