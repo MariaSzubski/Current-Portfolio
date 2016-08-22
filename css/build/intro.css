@@ -634,10 +634,16 @@ ul#social {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 80% !important;
-  max-width: 960px;
+  max-width: 630px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   background-color: rgba(0, 0, 0, 0.15);
+}
+#skills dl {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 188px;
+          flex: 1 0 188px;
+  padding: 18px 32px;
 }
 #contact {
   width: 100% !important;
@@ -647,12 +653,6 @@ ul#social {
 }
 #contact svg path {
   fill: #EDA44C;
-}
-dl {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 188px;
-          flex: 1 0 188px;
-  padding: 18px 24px;
 }
 @media (min-width: 48em) and (max-width: 64em) {
   #aboutMe {
