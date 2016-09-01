@@ -526,7 +526,11 @@ header {
 *.gist * {
 	font-family: monospace;
 	font-weight: 500;
-	font-size: 1rem !important;
+	font-size: .8rem !important;
+}
+
+.gist .blob-code-inner {
+    white-space: pre-wrap !important;
 }
 
 .gist,
@@ -536,4 +540,18 @@ header {
 .js-task-list-container,
 .file-box {
 	max-height: 520px !important;
+}
+
+
+@media handheld, (max-width: 48em) {
+
+	.gist,
+	.gist-file,
+	.gist-data,
+	.js-gist-file-update-container,
+	.js-task-list-container,
+	.file-box {
+		max-height: none !important;
+	}
+
 }
