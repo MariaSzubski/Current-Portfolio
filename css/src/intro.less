@@ -11,9 +11,9 @@ header{
 	background-image: url('../../img/bg.svg');
 
 	& > img{
-		width: 288px;
-		height:	288px;
-		border-radius: 144px;
+		width: 260px;
+		height:	260px;
+		border-radius: 130px;
 		border:	6px solid @white;
 		.b-shadow_green;
 	}
@@ -69,7 +69,8 @@ nav {
 
 	@media handheld, (max-width: 48em){
 
-		& a{
+		& a,
+		& a:not(:focus){
 			height: 56px;
 			min-height: 56px;
 			text-align: center;
@@ -79,9 +80,11 @@ nav {
 			&:first-of-type{
 				display:inline;
 				color: @grey;
+				text-decoration: none;
 			}
 
-			&:hover{
+			&:not(:first-of-type):hover,
+			&:not(:first-of-type):focus{
 				background-color: @yellow;
 				color: @grey;
 				text-decoration: none;
@@ -89,15 +92,17 @@ nav {
 			}
 		}
 
-		& > div{
+		& > div,
+		& > div:not(:focus){
 			flex-flow: column;
 			justify-content: flex-start;
 			width: 100%;
-			max-height: 60px;
+			max-height: 56px;
 			overflow: hidden;
 			transition: max-height 0.3s;
 
-			&:hover{
+			&:hover,
+			&:focus{
 				max-height: 340px;
 				transition: max-height 0.3s;
 			}
@@ -123,7 +128,8 @@ nav {
 		height: 51px;
 		width: 48px;
 		overflow: hidden;
-		&:hover img{
+		&:hover img,
+		&:focus img{
 			margin-top: -51px;
 		}
 	}
@@ -170,7 +176,8 @@ nav {
 	.b-shadow;
 
 	&:hover,
-	&:active{
+	&:active,
+	&:focus{
 		border: 2px solid #E3A730;
 		transition: border .3s ease;
 	}
@@ -183,7 +190,8 @@ nav {
 		object-position: center;
 	}
 
-	&:hover .label{
+	&:hover .label,
+	&:focus .label{
 		background-color: @yellow;
 		transition: background-color .3s ease;
 	}
@@ -587,7 +595,8 @@ nav {
 		border-top: 2px solid @black;
 		.b-shadow;
 
-		&:hover {
+		&:hover,
+		&:focus {
 			cursor:help;
 			transition: opacity .3s ease;
 
@@ -670,7 +679,8 @@ nav {
 			padding: 18px;
 			padding-left: 48px;
 
-			&:hover {
+			&:hover,
+			&:focus {
 				cursor:auto;
 				opacity: 1;
 				transition:none;
