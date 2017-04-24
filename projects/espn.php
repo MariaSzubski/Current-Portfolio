@@ -1,4 +1,5 @@
 <?php
+	$dir = '../';
 	$h1 = 'The Power of IX Mosaic';
 	$h2 = 'A Microsite for espnW';
 	$himg = ['../img/espn/design_01.png', 'espnw: The Power of IX Banner'];
@@ -67,7 +68,7 @@
 			</div>
 		</section>
 
-		<?php include 'template/footer.inc.php'; ?>
+		<?php include '../template/footer.inc.php'; ?>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>

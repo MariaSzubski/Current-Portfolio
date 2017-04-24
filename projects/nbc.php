@@ -1,4 +1,5 @@
 <?php
+	$dir = '../';
 	$h1 = 'NBCUniversal Careers';
 	$h2 = 'A Redesigned Website Proposal';
 	$himg = ['../img/proj_nbc.jpg', 'NBC Universal Careers Banner'];
@@ -72,7 +73,7 @@
 
 		</section>
 
-		<?php include 'template/footer.inc.php'; ?>
+		<?php include '../template/footer.inc.php'; ?>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>

@@ -1,4 +1,5 @@
 <?php
+	$dir = '../';
 	$h1 = 'Urban Walls: Community Revitalization';
 	$h2 = 'A Cincinnati Public Art Narrative';
 	$himg = ['../img/urbanwalls/banner.jpg', 'Urban Walls: Community Revitalization Banner'];
@@ -105,7 +106,7 @@
 
 		</section>
 
-		<?php include 'template/footer.inc.php'; ?>
+		<?php include '../template/footer.inc.php'; ?>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>

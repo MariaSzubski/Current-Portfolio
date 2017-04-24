@@ -1,4 +1,5 @@
 <?php
+	$dir = '../';
 	$h1 = 'JCPenney Findmore<sup>&trade;</sup> Storefront';
 	$h2 = 'An In-Store Shopping Kiosk';
 	$himg = ['../img/proj_findmore.jpg', 'JCPenney Findmore Kiosk Banner'];
@@ -75,7 +76,7 @@
 			</div>
 		</section>
 
-		<?php include 'template/footer.inc.php'; ?>
+		<?php include '../template/footer.inc.php'; ?>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</body>

@@ -1,4 +1,5 @@
 <?php
+	$dir = '../';
 	$h1 = 'JavaScript Snippets';
 	$h2 = '&nbsp;';
 	$himg = ['../img/proj_codeSnippets.png', 'JavaScript Code Snippets Banner'];
@@ -96,7 +97,7 @@
 			</div>
 		</section>
 
-		<?php include 'template/footer.inc.php'; ?>
+		<?php include '../template/footer.inc.php'; ?>
 
 	</body>
 </html>

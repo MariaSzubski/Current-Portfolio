@@ -1,4 +1,5 @@
 <?php
+	$dir = '../';
 	$h1 = 'IKEA RFID Experience';
 	$h2 = 'An Electronic Shopping List &amp; Wayfinding Concept';
 	$himg = ['../img/ikea/lg/analysis_03.png', 'IKEA RFID Experience Banner'];
@@ -155,7 +156,7 @@
 
 		</section>
 
-		<?php include 'template/footer.inc.php'; ?>
+		<?php include '../template/footer.inc.php'; ?>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>

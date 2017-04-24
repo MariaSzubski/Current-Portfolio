@@ -1,3 +1,4 @@
+<?php $dir = '' ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -476,7 +477,7 @@
 		</section>
 
 		<?php include 'template/footer.inc.php'; ?>
-		
+
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="scripts/build/js.min.js"></script>
 	</body>
