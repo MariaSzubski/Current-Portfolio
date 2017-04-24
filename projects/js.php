@@ -26,7 +26,7 @@
 	</head>
 	<body>
 
-		<?php require '../template/proj_header.inc.php' ?>
+		<?php include '../template/proj_header.inc.php' ?>
 
 		<section class="gist_container final">
 			<h1>Cut The Sticks</h1>
@@ -96,7 +96,7 @@
 			</div>
 		</section>
 
-		<?php require 'template/footer.inc.php'; ?>
+		<?php include 'template/footer.inc.php'; ?>
 
 	</body>
 </html>

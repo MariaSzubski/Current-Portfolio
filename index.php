@@ -475,7 +475,7 @@
 			</div>
 		</section>
 
-		<?php require 'template/footer.inc.php'; ?>
+		<?php include 'template/footer.inc.php'; ?>
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="scripts/build/js.min.js"></script>

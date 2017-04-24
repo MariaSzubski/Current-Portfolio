@@ -26,7 +26,7 @@
 	</head>
 	<body>
 
-		<?php require '../template/proj_header.inc.php' ?>
+		<?php include '../template/proj_header.inc.php' ?>
 
 		<section class="details">
 			<h1>About This Project</h1>
@@ -75,7 +75,7 @@
 			</div>
 		</section>
 
-		<?php require 'template/footer.inc.php'; ?>
+		<?php include 'template/footer.inc.php'; ?>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</body>
