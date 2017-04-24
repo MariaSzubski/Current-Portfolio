@@ -152,7 +152,7 @@
 					<div>
 						<h2>UX Designer</h2>
 						<h3><a href="http://www.nielsen.com/" title="Nielsen" target="_blank">Nielsen</a> • User Experience Team </h3>
-						<h4>Govern Nielsen’s collection of big data applications to ensure brand cohesion, consistency, and ease of use. Design across multiple frameworks including Sencha, AngularJS, MicroStrategy, and D3. Create consumer-facing mobile applications using the iOS and Material Design guidelines. Define, organize, and document UX Standards, making them easily accessible to all Nielsen employees.</h4>
+						<h4>Govern Nielsen’s collection of big data applications to ensure brand cohesion, consistency, and ease of use. Design across multiple frameworks including AngularJS, Sencha, MicroStrategy, and D3. Create mobile applications that adhere to iOS and Material Design guidelines. Build and maintain website to make UX Standards easily accessible to all Nielsen employees.</h4>
 					</div>
 					<div>
 						<h5>
@@ -244,7 +244,7 @@
 					<div>
 						<h2>Web Development Teaching Assistant</h2>
 						<h3><a href="https://www.girldevelopit.com/" title="Girl Develop It" target="_blank">Girl Develop It</a> • Cincinnati Chapter</h3>
-						<h4>Provide mentoring and resources to students taking Intro and Intermediate level HTML/CSS courses. Assist with planning and outreach for the chapter.</h4>
+						<h4>Provide mentoring and resources to students taking Intro and Intermediate level HTML/CSS courses. Assist with curriculum planning and community outreach.</h4>
 					</div>
 					<div>
 						<h5>
@@ -291,26 +291,26 @@
 					<dt>Development Skills</dt>
 					<dd>HTML5
 					<dd>CSS3 &amp; LESS</dd>
-					<dd>ECMAScript 6 &amp; jQuery</dd>
-					<dd>GitHub</dd>
+					<dd>ES6 &amp; jQuery</dd>
+					<dd>Git/GitHub</dd>
 					<dd>Grunt</dd>
 				</dl>
 				<dl>
 					<dt>Design Skills</dt>
+					<dd>Web &amp; Mobile UI Design</dd>
 					<dd>UX Architecture</dd>
-					<dd>Web &amp; Mobile UI</dd>
 					<dd>Responsive Design</dd>
 					<dd>Data Visualization</dd>
 					<dd>Usability Testing</dd>
 				</dl>
-				<!-- <dl>
-					<dt>Interests</dt>
-					<dd>Education</dd>
-					<dd>Guitar</dd>
-					<dd>Technology</dd>
-					<dd>Yoga</dd>
-					<dd>Running</dd>
-				</dl> -->
+				<dl>
+					<dt>Preferred Tools</dt>
+					<dd>Adobe Illustrator CC</dd>
+					<dd>Adobe Photoshop CC</dd>
+					<dd>InVision App</dd>
+					<dd>Atom</dd>
+					<dd>WordPress &amp; Grav CMS</dd>
+				</dl>
 			</div>
 		</section>
 
