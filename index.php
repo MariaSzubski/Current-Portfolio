@@ -7,9 +7,6 @@
 		<link rel="stylesheet" href="css/build/typestyles.css">
 		<link rel="stylesheet" href="css/build/master.css">
 		<link rel="stylesheet" href="css/build/intro.css">
-
-
-
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -56,7 +53,7 @@
 			<div id="wsContainer">
 
 				<div class="caseStudy" id="ws_1">
-					<a href="projects/insight.html">
+					<a href="projects/insight.php">
 						<img src="img/proj_insight.jpg" alt="Insight: Rethinking Standardized Testing">
 						<div class="label">
 							<h2>Insight: Rethinking Standardized Testing</h2>
@@ -67,7 +64,7 @@
 				<div id="wsGroup_1">
 
 					<div class="caseStudy" id="ws_2">
-						<a href="projects/guitar.html">
+						<a href="projects/guitar.php">
 							<img src="img/proj_guitar.jpg" alt="Guitar Practice Log">
 							<div class="label">
 								<h2>Guitar Practice Log</h2>
@@ -76,7 +73,7 @@
 						</a>
 					</div>
 					<div class="caseStudy" id="ws_3">
-						<a href="projects/js.html">
+						<a href="projects/js.php">
 							<img src="img/proj_codeSnippets.png" alt="JavaScript Code Snippets">
 							<div class="label">
 								<h2>JavaScript Snippets</h2>
@@ -86,7 +83,7 @@
 				</div>
 				<div id="wsGroup_2">
 					<div class="caseStudy" id="ws_4">
-						<a href="projects/ikea.html">
+						<a href="projects/ikea.php">
 							<img src="img/proj_ikea.png" alt="IKEA RFID Experience">
 							<div class="label">
 								<h2>IKEA RFID Experience</h2>
@@ -96,7 +93,7 @@
 					</div>
 
 					<div class="caseStudy" id="ws_5">
-						<a href="projects/espn.html">
+						<a href="projects/espn.php">
 							<img src="img/proj_titleix.jpg" alt="espnW: The Power of IX">
 							<div class="label">
 								<h2>espnW: The Power of IX Mosaic</h2>
@@ -106,7 +103,7 @@
 					</div>
 				</div>
 				<div class="caseStudy" id="ws_6">
-					<a href="projects/nbc.html">
+					<a href="projects/nbc.php">
 						<img src="img/proj_nbc.jpg" alt="NBC Universal Careers Website">
 						<div class="label">
 							<h2>NBC Universal Careers</h2>
@@ -115,7 +112,7 @@
 					</a>
 				</div>
 				<div class="caseStudy" id="ws_7">
-					<a href="projects/urbanwalls.html">
+					<a href="projects/urbanwalls.php">
 						<img src="img/proj_urbanWalls.jpg" alt="Urban Walls: Community Revitalization">
 						<div class="label">
 							<h2>Urban Walls: Community Revitalization</h2>
@@ -124,7 +121,7 @@
 					</a>
 				</div>
 				<div class="caseStudy" id="ws_8">
-					<a href="projects/kca.html">
+					<a href="projects/kca.php">
 						<img src="img/proj_kca.png" alt="Wishlist Generator for Kmart">
 						<div class="label">
 							<h2>Wishlist Generator for Kmart</h2>
@@ -133,7 +130,7 @@
 					</a>
 				</div>
 				<div class="caseStudy" id="ws_9">
-					<a href="projects/jcp.html">
+					<a href="projects/jcp.php">
 						<img src="img/proj_findmore.jpg" alt="JCPenney Findmore Kiosk">
 						<div class="label">
 							<h2>JCPenney Findmore Kiosk</h2>
@@ -158,7 +155,7 @@
 					</div>
 					<div>
 						<h5>
-							<img src="img/i_date.svg" alt="Time Period" title="Time Period">2012 – Present
+							<img src="img/i_date.svg" alt="Time Period" title="Time Period"> 2012 – Present
 						</h5>
 						<h6>
 							<img src="img/i_location.svg" alt="Location" title="Location">Cincinnati, OH
@@ -489,11 +486,10 @@
 
 					<li><a href="https://twitter.com/MariaSzubski" target="_blank"><div><img src="img/soc_twitter.svg" alt="Twitter"></div>Twitter</a></li>
 					<li><a href="mailto:mariaszubski@gmail.com" target="_blank"><div><img src="img/soc_email.svg" alt="Email Me"></div>Email</a></li>
-
 				</ul>
 			</div>
 			<div id="copyright">
-				&copy;2016 Maria Szubski • MariaSzubski@gmail.com
+				&copy;2017 Maria Szubski • MariaSzubski@gmail.com
 			</div>
 		</footer>
 

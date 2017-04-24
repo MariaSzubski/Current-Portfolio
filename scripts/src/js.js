@@ -14,7 +14,7 @@ $(function(){
 	});
 
 
-	// Override nav anchors and scroll to selected item (on index.html)
+	// Override nav anchors and scroll to selected item (on index.php)
 	var mq = window.matchMedia("handheld, (max-width: 48em)");
 	var nav = document.getElementById("nav");
 	nav.addEventListener('click', function(e){
@@ -26,7 +26,7 @@ $(function(){
 
 			// Prevent #anchors from being added to browser history (fixes back button issue)
 			if(!document.getElementById('idxContainer')){
-				window.location.replace("index.html" + target);
+				window.location.replace("index.php" + target);
 			}
 
 			// Scroll to section. No visible animation on handheld devices.

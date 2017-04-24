@@ -23,16 +23,17 @@
 
 		<header>
 			<div class="imagebg">
-				<img src="../img/kca/design_01.png" alt="Wishlist Generator for Kmart Banner">
+				<img src="../img/proj_insight.jpg" alt="Insight: Rethinking Standardized Testing Banner">
 			</div>
 			<div>
-				<h1>Wishlist Generator for Kmart</h1>
-				<h2>An Advertisement for Kmart &amp; the Nickelodeon Kids' Choice Awards</h2>
+				<h1>Insight</h1>
+				<h2>Rethinking Standardized Testing</h2>
 			</div>
+
 			<nav>
 				<ul>
 					<li>
-						<a href="../index.html">
+						<a href="../index.php">
 							<span>Back to Main Page</span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
 								<image width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsSAAALEgHS3X78AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAnBJREFUeNq0ls1rU1EQxV/yblLrRyKKCCUWNYmguKi4qi70T3djxYVQXEShVcGUFqkGW9OmTUyeZ/Q3ML426CYXDvfl3Zkz8+brplIURWaropX9Wb7/PihcYM76l17FdslU9ZyEC+y2fgqnwkQysznkplcTlkp6J7abXgXLJnRdWBWuIXgo7Ar7wkjC0xJ5rm1ZuCGsCA2OBsJn4Zs55wauCPeF50JXMOUvwibYiUYCeUtYAzcFO98SXgjvhB8JAwnPjfwh71p45TJ9EY/w0shvCY+FJ+g1PP5ab10vxa/Gc9snhK0TkpcRsoyQGPlToY2s6+RRJ2HVEnNAWFoInnLeRtYS2uP5gbDOWY6srREcB3AWecnDRD6aPI8xdjXgrvBIuAO5yxjhtvBaeC98t5wkq1fFdkK1bIaYm3d1CGy/J9zGkToh8TNL7gdhA459yrtINMWMBO6UvqgdyHK+wNaQd5H8pfAmVNwsC81hRqYY6YeY1/A8J65fOasRRpP5JLyCvF/umWpsHg5GVEuPmFoYLuPxFpjwboxMD50zDVnNFrzSnPZfoRQ7xHlIWLohREPOOnh/5M0YvyKdQ+4dus5smoAmYfEkn2BoFVkfiH8ZSWEq+myJHZqHUqxS216mtXDWjqm0ShLnsVVSYp7XmIprzJYy+ZRq2Yakg+f1kpEijPldUY+9ky+i9IxhVw+zJda5delH4Vi4RF94Fy/x24zsMa7HcZo2GbkNyDO8i03kw+4oxLwdLpxlOJrnTdMCbwu8GhGSjdhEnsiSXhfyyHFmmg5oouw/LhzveNc9LF04A5+mi78yF37pL/pvyy8BBgD29izT0Ewj6AAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 -1 -1)" opacity="0.4"/><path d="M13.36 11l6.484-6.483C19.944 4.417 20 4.283 20 4.143s-0.056-0.275-0.155-0.375L18.23 2.155c-0.206-0.207-0.541-0.207-0.748 0L11 8.638 4.516 2.156c-0.198-0.199-0.55-0.199-0.749 0L2.155 3.769c-0.207 0.207-0.207 0.542 0 0.749L8.637 11l-6.482 6.482c-0.207 0.207-0.207 0.542 0 0.748l1.614 1.614c0.199 0.198 0.55 0.198 0.749 0L11 13.36l6.482 6.484c0.099 0.1 0.233 0.155 0.374 0.155s0.275-0.056 0.374-0.155l1.614-1.614c0.1-0.099 0.155-0.233 0.155-0.374s-0.056-0.275-0.155-0.374L13.36 11zM17.79 19.471l-6.856-6.859 -6.856 6.859 -1.614-1.614L9.32 11 2.463 4.143 4.075 2.53l6.858 6.857 6.856-6.857 1.614 1.613L12.546 11l6.858 6.856L17.79 19.471z"/><polygon points="19.404 17.856 12.546 11 19.404 4.143 17.79 2.529 10.934 9.387 4.075 2.53 2.463 4.143 9.32 11 2.463 17.856 4.077 19.471 10.934 12.612 17.79 19.471 " fill="#FFF"/>
@@ -40,7 +41,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="urbanwalls.html">
+						<a href="jcp.php">
 							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="28" viewBox="0 0 18 28">
 								<image width="18" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAcCAYAAABsxO8nAAAACXBIWXMAAAsSAAALEgHS3X78AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAelJREFUeNq0lelKw1AQhZNata0L7ruiuKBY9f3/+gZuKO4g7nuxtlRtPCNf5DYmraIGPmJic+45cycTPwgCr9Hh6wj/dG5/PBgg4DcSkkZKp2bRKtKI2UOvomxnaVTrCiGSFX1iUHQgWBV34kTcipdEIURyYkQsiBnRI3oR2hWrnIvpOjWxOP1iCTpxN0a0Cyeql0pIZffbxSQiIzz8JkpEMidXouKhmFSXITElBnDXhnhBrIlNcWP1sZ1L1YlkdZnGybMT7VLsiXNzZzsWF82NlMdNma02wVOxLo7FE0X3aqIlREoTqQ3BTbgKI7kOvhMpR6T9aKQaoQaR7DhLivQZDTcWoRuhUZHh/x2I7YituEhRRy107DjOAq6tf5rENa9CORopKvTrIxSqsOIJNfC5PqOb+3GYYXe/CpHX6nBPMU8pdIGdsgfnxWLY5c588qJ9VMXJMStbK3Q5v7NaLVPsR/GA09pouHqhqNvigHg5nD0zj2yUDFvjRiN+XrAbJcbDEatb5CJDLEOP5eMiRt/+ehF9eiw2Yo29b0QsEXE2GvHLPPoY5L7vRpyg2EWimtAKjsz9uX5fSSf0lxuxh3uddHmWN2BOHNJv8UIWUauEETdwEg5/n4UKzpzy/v9z9KcfyJ98st8FGACrQOttkPpSrgAAAABJRU5ErkJggg==" opacity="0.4"/><path d="M14.3 24.1L7.6 14l6.8-10.2c0.1-0.2 0.1-0.4 0-0.5C14.3 3.1 14.2 3 14 3h-3c-0.2 0-0.3 0.1-0.4 0.2l-7 10.5c-0.1 0.2-0.1 0.4 0 0.6l7 10.5C10.7 24.9 10.8 25 11 25h3c0 0 0 0 0 0 0.3 0 0.5-0.2 0.5-0.5C14.5 24.4 14.4 24.2 14.3 24.1zM11 24.5L4 14l7-10.5h3L7 14l7 10.5H11z"/><polygon points="14 24.5 11 24.5 4 14 11 3.5 14 3.5 7 14 " fill="#FFF"/>
 							</svg>
@@ -48,7 +49,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="jcp.html">
+						<a href="guitar.php">
 							<span>Next Project</span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="18" height="28" viewBox="0 0 18 28">
 								<image width="18" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAcCAYAAABsxO8nAAAACXBIWXMAAAsSAAALEgHS3X78AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAhBJREFUeNqclW1PE0EUhdllS1osRlpFoSHBoEQj0e/+//hdxWh4iU0MhRZQU6UtbWU9lzxTZrezG8IkT7e7O3P2npk7d+I0TRcMtQhij5tnrk8ZyY1CFNkg+1/lagKmPhVXej9R5+uFkpaoU8TgptgUDaK5En9EV5yr27BMLOG6JNbFe7GD0IX4KQ7FV9GR2KBIzAm5qB4SlbNWEyu8myA2TpnUkNBY9MS+eCaeiH+IbdDHouuL37zLtBh1+9q52BMfGfBIPBAVsSae85Eai5MVsh98D8WJOGCCa1gdENm2eE20FRYpK0Qzsb+iLT6JYy8FRkS1K7ZEPTf29saz2MPiHgINLCZlFjOqOYuHWFy+i8U4kBJ5ix2el1qcE8pZ/CK+If6UyGwbtRBadbsjFJGzOCK7z8Qi+dTEXp3EbbIrgtbu1YJCRFrliy7LO0QYMYc/uB8HhVgFl81vxCv6dcn4ETlmi/HLFsHmNS6Iss5kvvX2mqtXLs/aRHY9FxGWapSUF6zUgEiWsXVEWbFFmLhKkBRY2oUqm3nKylk038WpJa5fm+ISSy2vThVaygjlLL3E0vAulmZCnqXH2HlHBlsBu/SyPGgpVLPXqNeu1C5ytfz5XGQpL+TqTp9EiymtfvEPWgrVbCsdH9ikc8dRkaWZkH1B0zQl3S9DBySRlB+QbrfbacrE+rU49UpLafsvwABKvxBVZ0eG+AAAAABJRU5ErkJggg==" opacity="0.4"/><path d="M3.7 3.9L10.4 14 3.6 24.2c-0.1 0.2-0.1 0.4 0 0.5C3.7 24.9 3.8 25 4 25h3c0.2 0 0.3-0.1 0.4-0.2l7-10.5c0.1-0.2 0.1-0.4 0-0.6l-7-10.5C7.3 3.1 7.2 3 7 3H4c0 0 0 0 0 0C3.7 3 3.5 3.2 3.5 3.5 3.5 3.6 3.6 3.8 3.7 3.9zM7 3.5L14 14 7 24.5H4L11 14 4 3.5H7z"/><polygon points="4 3.5 7 3.5 14 14 7 24.5 4 24.5 11 14" fill="#FFF"/>
@@ -60,40 +61,102 @@
 		</header>
 
 
-
 		<section class="details">
 			<h1>About This Project</h1>
 			<div>
 				<p>
-					Kids can use KMART's Wishlist Generator to find cool products based on their interests and the shows they like. This was an advertisement for KMART and the 2011 Nickelodeon Kids' Choice Awards.
+					When schools rely on fact memorization to prepare for standardized tests, students lose interest in the subject matter and miss its connection to the real word. This tablet-based alternative tests students’ conceptual knowledge and creative problem solving in an engaging, exploratory format.
+				</p>
+				<p>
+					inSight was my senior capstone project consisting of research, design, user testing, and interactive prototyping. This year-long project was a collaboration with classmate Matt Denzer.
 				</p>
 				<dl>
 					<dt>Demonstrated Skills</dt>
-					<dd>Web Design</dd>
+					<dd>Mobile UI Design</dd>
+					<dd>Research</dd>
+					<dd>User Testing</dd>
+					<dd>HTML</dd>
+					<dd>jQuery</dd>
+					<dd>PhoneGap</dd>
 				</dl>
 			</div>
 		</section>
 
 
-
-		<section class="details">
-			<h1>Design Details</h1>
+		<section id="research_insight" class="gallery">
+			<h1>Research</h1>
 			<div>
-				<h2>Concept</h2>
 				<p>
-					The branding for the KCA 2011 was inspired by Japanese commercial advertising and features bright colors with lots of decorative sticker elements. The Wishlist Generator’s slot machine design makes the ad more fun and engaging.
+					To narrow the topic of our project from general education to science-based standardized testing, we visited local science museums and researched educational books and iPad apps We also looked into existing test methods and met with local educators to discuss their experiences teaching young students.
 				</p>
 			</div>
-			<div>
-				<h2>Work Flow</h2>
-				<p>
-					Kids answer a quick quiz about themselves and their interests. The Generator uses these answers to find relevant KMART products. Kids can drag and drop these items into the list at the bottom of the screen and then share their final list with friends and family.
-				</p>
-			</div>
+			<img src="../img/insight/sm/research_01.jpg" alt="Insight: Rethinking Standardized Testing Research">
+			<img src="../img/insight/sm/research_02.jpg" alt="Insight: Rethinking Standardized Testing Research">
+			<img src="../img/insight/sm/research_03.jpg" alt="Insight: Rethinking Standardized Testing Research">
+			<img src="../img/insight/sm/research_04.jpg" alt="Insight: Rethinking Standardized Testing Research">
+			<img src="../img/insight/sm/research_05.jpg" alt="Insight: Rethinking Standardized Testing Research">
+			<img src="../img/insight/sm/research_06.jpg" alt="Insight: Rethinking Standardized Testing Research">
 		</section>
 
+		<section class="slides">
+			<h1>Wireframes</h1>
+			<div 	class="fotorama"
+					data-width="100%"
+					data-fit="contain"
+					data-allowfullscreen="true"
+					data-transition="dissolve"
+					data-loop="true"
+					data-keyboard="true"
+					data-arrows="true"
+					data-click="true"
+					data-swipe="true">
+				<a href="../img/insight/lg/design1_01.png"></a>
+				<a href="../img/insight/lg/design1_02.png"></a>
+				<a href="../img/insight/lg/design1_03.png"></a>
+				<a href="../img/insight/lg/design1_04.png"></a>
+				<a href="../img/insight/lg/design1_05.png"></a>
+			</div>
+			<div class="desc">
+				<p>
+					The style and content of the app is inspired by game elements and cartoon graphics to make the test more engaging to students.
+				</p>
+				<p>
+					The wireframes focus on two science topics — the effect of plant roots on erosion and the effect of sunlight on plant growth. Each test question is  an interactive piece through which students demonstrate skills and explain their understanding of the subject matter.
+				</p>
+			</div>
 
-		<section class="slides final">
+		</section>
+
+		<section class="slides">
+			<h1>User Testing</h1>
+
+			<div 	class="fotorama"
+					data-width="100%"
+					data-fit="contain"
+					data-allowfullscreen="true"
+					data-transition="dissolve"
+					data-loop="true"
+					data-keyboard="true"
+					data-arrows="true"
+					data-click="true"
+					data-swipe="true">
+				<a href="../img/insight/sm/testing_01.jpg" data-full="../img/insight/lg/testing_01.jpg"></a>
+				<a href="../img/insight/sm/testing_02.jpg" data-full="../img/insight/lg/testing_02.jpg"></a>
+				<a href="../img/insight/sm/testing_03.jpg" data-full="../img/insight/lg/testing_03.jpg"></a>
+				<a href="../img/insight/sm/testing_04.jpg" data-full="../img/insight/lg/testing_04.jpg"></a>
+			</div>
+			<div class="desc">
+				<p>
+					We conducted a scripted user test with seven local students. Using a paper prototype, we asked the students to complete common tasks within the app.
+				</p>
+				<p>
+					The feedback was mostly positive and we revised the designs based on common problems. Details about our test methods and results can be found on pages 23-28 in the <a href="../assets/MSzubski_MDenzer_inSightProcess.pdf" target="_blank">Design Process PDF</a>.
+				</p>
+			</div>
+
+		</section>
+
+		<section class="slides">
 			<h1>Final Design</h1>
 			<div 	class="fotorama"
 					data-width="100%"
@@ -105,16 +168,35 @@
 					data-arrows="true"
 					data-click="true"
 					data-swipe="true">
-				<a href="../img/kca/design_01.png"></a>
-				<a href="../img/kca/design_02.png"></a>
-				<a href="../img/kca/design_03.png"></a>
-				<a href="../img/kca/design_04.png"></a>
-				<a href="../img/kca/design_05.png"></a>
-				<a href="../img/kca/design_06.png"></a>
-				<a href="../img/kca/design_07.png"></a>
-				<a href="../img/kca/design_08.png"></a>
+				<a href="../img/insight/lg/design2_01.jpg"></a>
+				<a href="../img/insight/lg/design2_02.jpg"></a>
+				<a href="../img/insight/lg/design2_03.jpg"></a>
+				<a href="../img/insight/lg/design2_04.jpg"></a>
+				<a href="../img/insight/lg/design2_05.jpg"></a>
+				<a href="../img/insight/lg/design2_06.jpg"></a>
+				<a href="../img/insight/lg/design2_07.jpg"></a>
+				<a href="../img/insight/lg/design2_08.jpg"></a>
 			</div>
+			<div class="desc">
+				<p>
+					In the second phase on the project, we refined the interface style and began building the interactive prototype. This demo is a combination of interactive elements and UI animations. It was built in HTML and  jQuery and wrapped in PhoneGap to create a native iPad app.
+				</p>
+				<p>
+					A working demo of inSight was displayed at the University of Cincinnati’s DAAPWorks in 2012.
+				</p>
+			</div>
+		</section>
 
+		<section class="endSummary final">
+			<h1>Final Design</h1>
+			<div class="desc centered">
+				<p>The interactive prototype was built to work in browsers and as a native iOS 5 app.</p>
+			</div>
+			<div class="links">
+				<a href="../assets/insight/index.php" class="button" target="_blank">In-Browser Demo</a>
+				<a href="../assets/MSzubski_MDenzer_inSightProcess.pdf" target="_blank" class="button">Design Process (PDF)</a>
+				<a href="https://github.com/MariaSzubski/insight" target="_blank" class="button">PhoneGap Files on Github</a>
+			</div>
 		</section>
 
 
@@ -136,7 +218,6 @@
 				&copy;2016 Maria Szubski • MariaSzubski@gmail.com
 			</div>
 		</footer>
-
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
