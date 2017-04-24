@@ -64,9 +64,9 @@
 					data-arrows="true"
 					data-click="true"
 					data-swipe="true">
-					<a href="../img/guitar/sm/sketch_01.jpg" data-full="../img/guitar/lg/sketch_01.jpg"></a>
-					<a href="../img/guitar/sm/sketch_02.jpg" data-full="../img/guitar/lg/sketch_02.jpg"></a>
-					<a href="../img/guitar/sm/sketch_03.jpg" data-full="../img/guitar/lg/sketch_03.jpg"></a>
+					<a href="../img/guitar/sm/sketch_01.png" data-full="../img/guitar/lg/sketch_01.jpg"></a>
+					<a href="../img/guitar/sm/sketch_02.png" data-full="../img/guitar/lg/sketch_02.jpg"></a>
+					<a href="../img/guitar/sm/sketch_03.png" data-full="../img/guitar/lg/sketch_03.jpg"></a>
 			</div>
 		</section>
 

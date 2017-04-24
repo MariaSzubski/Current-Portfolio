@@ -66,7 +66,7 @@
 
 					<div class="caseStudy" id="ws_2">
 						<a href="projects/guitar.php">
-							<img src="img/proj_guitar.jpg" alt="Guitar Practice Log">
+							<img src="img/proj_guitar.png" alt="Guitar Practice Log">
 							<div class="label">
 								<h2>Guitar Practice Log</h2>
 								<p>HTML5 • JavaScript • GitHub • Responsive Design</p>
@@ -85,7 +85,7 @@
 				<div id="wsGroup_2">
 					<div class="caseStudy" id="ws_4">
 						<a href="projects/ikea.php">
-							<img src="img/proj_ikea.png" alt="IKEA RFID Experience">
+							<img src="img/proj_ikea.jpg" alt="IKEA RFID Experience">
 							<div class="label">
 								<h2>IKEA RFID Experience</h2>
 								<p>UX Design • Wayfinding • Animated Visualization</p>
@@ -123,7 +123,7 @@
 				</div>
 				<div class="caseStudy" id="ws_8">
 					<a href="projects/kca.php">
-						<img src="img/proj_kca.png" alt="Wishlist Generator for Kmart">
+						<img src="img/proj_kca.jpg" alt="Wishlist Generator for Kmart">
 						<div class="label">
 							<h2>Wishlist Generator for Kmart</h2>
 							<p>Web Design</p>
