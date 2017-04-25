@@ -152,7 +152,7 @@
 					<div>
 						<h2>UX Designer</h2>
 						<h3><a href="http://www.nielsen.com/" title="Nielsen" target="_blank">Nielsen</a> • User Experience Team </h3>
-						<h4>Govern Nielsen’s collection of big data applications to ensure brand cohesion, consistency, and ease of use. Design across multiple frameworks including AngularJS, Sencha, MicroStrategy, and D3. Create mobile applications that adhere to iOS and Material Design guidelines. Build and maintain website to make UX Standards easily accessible to all Nielsen employees.</h4>
+						<h4>Govern Nielsen’s collection of big data applications to ensure brand cohesion, consistency, and ease of use. Design across multiple frameworks including AngularJS, Sencha, MicroStrategy, and D3. Create mobile applications that adhere to iOS and Material Design guidelines. Build and maintain UX Standards documentation website using PHP and AJAX.</h4>
 					</div>
 					<div>
 						<h5>
@@ -283,16 +283,16 @@
 			<h1>About Me</h1>
 			<div>
 				<p>
-					Maria is currently UX Designer at Nielsen, building data-driven interfaces for web and mobile products. She has also held positions as a web developer, motion graphic designer, and photographer. She loves creative problem solving and strives to design applications that are easy to use. In her free time she practices yoga and is learning to play guitar.
+					Maria is currently UX Designer at Nielsen, building data-driven web &amp; mobile products. She is also a web development teaching assistant for the Girl Develop It: Cincinnati. She loves creative problem solving and strives to create applications that are easy to use. In her free time she practices yoga and is learning to play guitar.
 				</p>
 			</div>
 			<div id="skills">
 				<dl>
 					<dt>Development Skills</dt>
-					<dd>HTML5
-					<dd>CSS3 &amp; LESS</dd>
-					<dd>ES6 &amp; jQuery</dd>
-					<dd>Git/GitHub</dd>
+					<dd>HTML5</dd>
+					<dd>CSS3, LESS</dd>
+					<dd>ES6, jQuery, AJAX</dd>
+					<dd>Git, GitHub</dd>
 					<dd>Grunt</dd>
 				</dl>
 				<dl>
@@ -304,7 +304,7 @@
 					<dd>Usability Testing</dd>
 				</dl>
 				<dl>
-					<dt>Preferred Tools</dt>
+					<dt>Current Tools</dt>
 					<dd>Adobe Illustrator CC</dd>
 					<dd>Adobe Photoshop CC</dd>
 					<dd>InVision App</dd>
