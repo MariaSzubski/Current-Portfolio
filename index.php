@@ -33,8 +33,8 @@
 
 		<header id="intro">
 			<img src="img/headshot.jpg" alt="Maria Szubski Headshot">
-			<h1>UX Designer &amp; Front-End Developer</h1>
-			<p>Hi, I'm Maria Szubski. I create digital experiences at Nielsen.</p>
+			<h1>Maria Szubski</h1>
+			<p>UX Design &amp; Front End Developer</p>
 			<ul id="social">
 				<li><a href="https://www.linkedin.com/in/MariaSzubski" target="_blank"><img src="img/soc_linkedin.svg" alt="LinkedIn" title="LinkedIn"></a></li>
 				<li><a href="https://github.com/MariaSzubski" target="_blank"><img src="img/soc_github.svg" alt="GitHub" title="GitHub"></a></li>
@@ -156,7 +156,23 @@
 					</div>
 					<div>
 						<h5>
-							<img src="img/i_date.svg" alt="Time Period" title="Time Period"> 2012 – Present
+							<img src="img/i_date.svg" alt="Time Period" title="Time Period"> Nov 2012 to Present
+						</h5>
+						<h6>
+							<img src="img/i_location.svg" alt="Location" title="Location">Cincinnati, OH
+						</h6>
+					</div>
+				</article>
+				<article>
+					<div>
+						<h2>Class Organizer</h2>
+						<h3><a href="https://www.girldevelopit.com/chapters/cincinnati" title="Girl Develop It Cincinnati" target="_blank">Girl Develop It</a> • Cincinnati Chapter</h3>
+						<h4>Work with Instructors and Chapter leaders to plan classes and events for Girl Develop It Cincinnati. Secure venues and promote classes on social media. Review scholarship applications. Assist with class set up and operations.
+						</h4>
+					</div>
+					<div>
+						<h5>
+							<img src="img/i_date.svg" alt="Time Period" title="Time Period">July 2017 to Present
 						</h5>
 						<h6>
 							<img src="img/i_location.svg" alt="Location" title="Location">Cincinnati, OH
@@ -242,9 +258,9 @@
 
 				<article>
 					<div>
-						<h2>Web Development Teaching Assistant</h2>
+						<h2>Web Development Class Organizer &amp; Teaching Assistant</h2>
 						<h3><a href="https://www.girldevelopit.com/" title="Girl Develop It" target="_blank">Girl Develop It</a> • Cincinnati Chapter</h3>
-						<h4>Provide mentoring and resources to students taking Intro and Intermediate level HTML/CSS courses. Assist with curriculum planning and community outreach.</h4>
+						<h4>Work with Chapter Leaders to plan quarterly curriculum. Organize classes and promote them on social media. Award scholarships. Provide mentoring to students.</h4>
 					</div>
 					<div>
 						<h5>
