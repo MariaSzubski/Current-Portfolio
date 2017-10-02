@@ -30,6 +30,10 @@
 
 		<?php include '../template/proj_header.inc.php' ?>
 
+		<!-- <section class="details">
+			<img src="../img/style_guide/lg/showcase_style-guide.png" alt="Style Guide Responsive Showcase">
+		</section> -->
+
 		<section class="details">
 			<h1>About This Project</h1>
 			<div>

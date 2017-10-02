@@ -2,6 +2,7 @@
 	<div class="label">
 		<h1><?php echo $h1 ?></h1>
 		<h2><?php echo $h2 ?></h2>
+		<img src="../img/style_guide/lg/showcase_style-guide.png" alt="Style Guide Responsive Showcase" class="showcase"/>
 	</div>
 	<nav>
 		<ul>
@@ -30,8 +31,5 @@
 				</a>
 			</li>
 		</ul>
-	</nav>	
-	<div class="imagebg">
-		<img src="<?php echo $himg[0] ?>" alt="<?php echo $himg[1] ?>">
-	</div>
+	</nav>
 </header>
