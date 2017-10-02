@@ -3,8 +3,8 @@
 	$h1 = 'Insight';
 	$h2 = 'Rethinking Standardized Testing';
 	$himg = ['../img/proj_insight.jpg', 'Insight: Rethinking Standardized Testing Banner'];
-	$prev = 'jcp.php';
-	$next = 'guitar.php';
+	$prev = 'kca.php';
+	$next = 'style_guide.php';
 ?>
 <!DOCTYPE html>
 <html>

@@ -65,11 +65,11 @@
 				<div id="wsGroup_1">
 
 					<div class="caseStudy" id="ws_2">
-						<a href="projects/guitar.php">
-							<img src="img/proj_guitar.png" alt="Guitar Practice Log">
+						<a href="projects/style_guide.php">
+							<img src="img/proj_style_guide.png" alt="Style Guide Template">
 							<div class="label">
-								<h2>Guitar Practice Log</h2>
-								<p>HTML5 • JavaScript • GitHub • Responsive Design</p>
+								<h2>Style Guide</h2>
+								<p>Documentation Website Template</p>
 							</div>
 						</a>
 					</div>
@@ -92,18 +92,26 @@
 							</div>
 						</a>
 					</div>
-
 					<div class="caseStudy" id="ws_5">
-						<a href="projects/espn.php">
-							<img src="img/proj_titleix.jpg" alt="espnW: The Power of IX">
+						<a href="projects/guitar.php">
+							<img src="img/proj_guitar.png" alt="Guitar Practice Log">
 							<div class="label">
-								<h2>espnW: The Power of IX Mosaic</h2>
-								<p>Web Design</p>
+								<h2>Guitar Practice Log</h2>
+								<p>HTML5 • JavaScript • GitHub • Responsive Design</p>
 							</div>
 						</a>
 					</div>
 				</div>
 				<div class="caseStudy" id="ws_6">
+					<a href="projects/espn.php">
+						<img src="img/proj_titleix.jpg" alt="espnW: The Power of IX">
+						<div class="label">
+							<h2>espnW: The Power of IX Mosaic</h2>
+							<p>Web Design</p>
+						</div>
+					</a>
+				</div>
+				<div class="caseStudy" id="ws_7">
 					<a href="projects/nbc.php">
 						<img src="img/proj_nbc.jpg" alt="NBC Universal Careers Website">
 						<div class="label">
@@ -112,7 +120,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="caseStudy" id="ws_7">
+				<div class="caseStudy" id="ws_8">
 					<a href="projects/urbanwalls.php">
 						<img src="img/proj_urbanWalls.jpg" alt="Urban Walls: Community Revitalization">
 						<div class="label">
@@ -121,21 +129,12 @@
 						</div>
 					</a>
 				</div>
-				<div class="caseStudy" id="ws_8">
+				<div class="caseStudy" id="ws_9">
 					<a href="projects/kca.php">
 						<img src="img/proj_kca.jpg" alt="Wishlist Generator for Kmart">
 						<div class="label">
 							<h2>Wishlist Generator for Kmart</h2>
 							<p>Web Design</p>
-						</div>
-					</a>
-				</div>
-				<div class="caseStudy" id="ws_9">
-					<a href="projects/jcp.php">
-						<img src="img/proj_findmore.jpg" alt="JCPenney Findmore Kiosk">
-						<div class="label">
-							<h2>JCPenney Findmore Kiosk</h2>
-							<p>UI Design • Animated Prototype</p>
 						</div>
 					</a>
 				</div>

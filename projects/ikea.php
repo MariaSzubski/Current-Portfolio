@@ -4,7 +4,7 @@
 	$h2 = 'An Electronic Shopping List &amp; Wayfinding Concept';
 	$himg = ['../img/ikea/lg/analysis_03.png', 'IKEA RFID Experience Banner'];
 	$prev = 'js.php';
-	$next = 'espn.php';
+	$next = 'guitar.php';
 ?>
 <!DOCTYPE html>
 <html>

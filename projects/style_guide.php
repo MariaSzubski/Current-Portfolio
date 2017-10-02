@@ -1,7 +1,7 @@
 <?php
 	$dir = '../';
 	$h1 = 'Style Guide';
-	$h2 = 'Documentation Website';
+	$h2 = 'Documentation Site Template';
 	$himg = ['../img/style_guide/lg/banner.png', 'Style Guide Banner'];
 	$prev = 'insight.php';
 	$next = 'js.php';
@@ -53,7 +53,7 @@
 				</dl>
 			</div>
 		</section>
-		<section id="ratio_guitar" class="slides">
+		<section class="slides">
 			<h1>Responsive Layout</h1>
 			<div 	class="fotorama"
 					data-width="100%"

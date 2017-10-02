@@ -4,7 +4,7 @@
 	$h2 = "An Advertisement for Kmart &amp; the Nickelodeon Kids' Choice Awards";
 	$himg = ['../img/kca/design_01.png', 'Wishlist Generator for Kmart Banner'];
 	$prev = 'urbanwalls.php';
-	$next = 'jcp.php';
+	$next = 'insight.php';
 ?>
 <!DOCTYPE html>
 <html>
