@@ -3,7 +3,7 @@
 	$h1 = 'JavaScript Snippets';
 	$h2 = '&nbsp;';
 	$himg = ['../img/proj_codeSnippets.png', 'JavaScript Code Snippets Banner'];
-	$prev = 'guitar.php';
+	$prev = 'style_guide.php';
 	$next = 'ikea.php';
 ?>
 <!DOCTYPE html>
