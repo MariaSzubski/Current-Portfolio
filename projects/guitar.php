@@ -53,7 +53,7 @@
 
 
 		<section id="ratio_guitar" class="slides">
-			<h1>Wireframes &amp;	FlowCharts</h1>
+			<h1>Wireframes &amp; FlowCharts</h1>
 			<div 	class="fotorama"
 					data-width="100%"
 					data-fit="contain"
