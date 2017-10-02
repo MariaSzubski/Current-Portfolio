@@ -34,7 +34,7 @@
 		<header id="intro">
 			<img src="img/headshot.jpg" alt="Maria Szubski Headshot">
 			<h1>Maria Szubski</h1>
-			<p>UX Design &amp; Front End Developer</p>
+			<p>UX Designer  &amp; Front End Developer</p>
 			<ul id="social">
 				<li><a href="https://www.linkedin.com/in/MariaSzubski" target="_blank"><img src="img/soc_linkedin.svg" alt="LinkedIn" title="LinkedIn"></a></li>
 				<li><a href="https://github.com/MariaSzubski" target="_blank"><img src="img/soc_github.svg" alt="GitHub" title="GitHub"></a></li>
