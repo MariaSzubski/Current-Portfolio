@@ -2,7 +2,7 @@
 	$dir = '../';
 	$h1 = 'Style Guide';
 	$h2 = 'Documentation Site Template';
-	$himg = ['../img/style_guide/lg/banner.png', 'Style Guide Banner'];
+	$himg = ['../img/style_guide/lg/showcase.png', 'Style Guide Showcase'];
 	$prev = 'insight.php';
 	$next = 'js.php';
 ?>
@@ -16,23 +16,11 @@
 		<link rel="stylesheet" href="../css/build/fotorama.css">
 		<link rel="stylesheet" href="../css/build/master.css">
 		<link rel="stylesheet" href="../css/build/workSample.css">
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-8457306-3', 'auto');
-			ga('send', 'pageview');
-		</script>
+		<?php include '../template/tracker.inc.php' ?>
 	</head>
 	<body>
 
 		<?php include '../template/proj_header.inc.php' ?>
-
-		<!-- <section class="details">
-			<img src="../img/style_guide/lg/showcase_style-guide.png" alt="Style Guide Responsive Showcase">
-		</section> -->
 
 		<section class="details">
 			<h1>About This Project</h1>
