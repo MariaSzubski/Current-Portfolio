@@ -3,8 +3,8 @@
 	$h1 = 'Guitar Practice Log';
 	$h2 = 'A Skill Log and Song Tracker';
 	$himg = ['../img/guitar/lg/banner.png', 'Guitar Practice Log Banner'];
-	$prev = 'insight.php';
-	$next = 'js.php';
+	$prev = 'ikea.php';
+	$next = 'espn.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -53,7 +53,7 @@
 
 
 		<section id="ratio_guitar" class="slides">
-			<h1>Wireframes &amp;	FlowCharts</h1>
+			<h1>Wireframes &amp; FlowCharts</h1>
 			<div 	class="fotorama"
 					data-width="100%"
 					data-fit="contain"

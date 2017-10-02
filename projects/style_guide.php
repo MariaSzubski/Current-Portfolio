@@ -1,10 +1,10 @@
 <?php
 	$dir = '../';
-	$h1 = 'The Power of IX Mosaic';
-	$h2 = 'A Microsite for espnW';
-	$himg = ['../img/espn/design_01.png', 'espnw: The Power of IX Banner'];
-	$prev = 'guitar.php';
-	$next = 'nbc.php';
+	$h1 = 'Style Guide';
+	$h2 = 'Documentation Site Template';
+	$himg = ['../img/style_guide/lg/banner.png', 'Style Guide Banner'];
+	$prev = 'insight.php';
+	$next = 'js.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -34,17 +34,27 @@
 			<h1>About This Project</h1>
 			<div>
 				<p>
-					In celebration the 40th anniversary of Title IX, espnW created the largest mosaic of female athletes in history. Female athletes can upload Facebook photos, search for friends, or search by sport.
+					The Style Guide is a template for a documentation website for a brand or project. It displays font styles, color palette, web components, pattern recommendations.
+
+					It is built with AJAX and PHP and is responsive at all device sizes. If JavaScript is disabled the site works as standard HTML.
+				</p>
+				<p>
+					View this project on <a href="https://github.com/MariaSzubski/style-guide" target="_blank">GitHub</a>.
 				</p>
 				<dl>
 					<dt>Demonstrated Skills</dt>
-					<dd>Web Design</dd>
+					<dd>JavaScript / jQuery</dd>
+					<dd>AJAX</dd>
+					<dd>Local Storage</dd>
+					<dd>PHP</dd>
+					<dd>HTML5 / LESS</dd>
+					<dd>Responsive Design</dd>
+					<dd>Git</dd>
 				</dl>
 			</div>
 		</section>
-
-		<section class="slides endSummary final">
-			<h1>Design Details</h1>
+		<section class="slides">
+			<h1>Responsive Layout</h1>
 			<div 	class="fotorama"
 					data-width="100%"
 					data-fit="contain"
@@ -55,16 +65,29 @@
 					data-arrows="true"
 					data-click="true"
 					data-swipe="true">
-				<a href="../img/espn/design_01.png"></a>
-				<a href="../img/espn/design_02.png"></a>
+				<a href="../img/style_guide/lg/design_01.png"></a>
+				<a href="../img/style_guide/lg/design_02.png"></a>
+				<a href="../img/style_guide/lg/design_03.png"></a>
+				<a href="../img/style_guide/lg/design_04.png"></a>
 			</div>
+		</section>
+		<section class="gist_container final">
+			<h1>Pixel / REM Conversion</h1>
 			<div class="desc">
 				<p>
-					The final design was built and launched by espnW. The design of the mosaic had to be simple enough to be readable when constructed from photos while being powerful enough to be the main design element on the page.
+					Users can choose between pixels or rem units. This setting applies site-wide and is saved to local storage. The values are calculated on the fly.
 				</p>
 			</div>
+			<div>
+				<script src="https://gist.github.com/MariaSzubski/59d14242ba7a24cffc601315f68b7c8c.js"></script>
+			</div>
+		</section>
+
+		<section class="slides endSummary final">
+			<h1>Interactive Demo</h1>
 			<div class="links">
-				<a href="http://espnwmosaic.com/mosaic.php" class="button" target="_blank">Power of IX Microsite</a>
+				<a href="../assets/style-guide" class="button" target="_blank">Style Guide Website</a>
+				<a href="https://github.com/MariaSzubski/style-guide" class="button" target="_blank">Project Files on GitHub</a>
 			</div>
 		</section>
 
