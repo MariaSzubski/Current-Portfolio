@@ -126,7 +126,7 @@
 		</section>
 
 		<section class="slides">
-			<h1>Final Design</h1>
+			<h1>App Design</h1>
 			<div 	class="fotorama"
 					data-width="100%"
 					data-fit="contain"
@@ -157,7 +157,7 @@
 		</section>
 
 		<section class="endSummary final">
-			<h1>Final Design</h1>
+			<h1>Prototype &amp; Process Book</h1>
 			<div class="desc centered">
 				<p>The interactive prototype was built to work in browsers and as a native iOS 5 app.</p>
 			</div>

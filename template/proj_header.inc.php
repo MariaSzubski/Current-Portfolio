@@ -1,8 +1,5 @@
 <header>
-	<div class="imagebg">
-		<img src="<?php echo $himg[0] ?>" alt="<?php echo $himg[1] ?>">
-	</div>
-	<div>
+	<div class="label">
 		<h1><?php echo $h1 ?></h1>
 		<h2><?php echo $h2 ?></h2>
 	</div>
@@ -33,5 +30,8 @@
 				</a>
 			</li>
 		</ul>
-	</nav>
+	</nav>	
+	<div class="imagebg">
+		<img src="<?php echo $himg[0] ?>" alt="<?php echo $himg[1] ?>">
+	</div>
 </header>

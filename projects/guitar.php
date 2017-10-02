@@ -1,7 +1,7 @@
 <?php
 	$dir = '../';
 	$h1 = 'Guitar Practice Log';
-	$h2 = 'A Skill Log and Song Tracker';
+	$h2 = 'Skill Log and Song Tracker';
 	$himg = ['../img/guitar/lg/banner.png', 'Guitar Practice Log Banner'];
 	$prev = 'ikea.php';
 	$next = 'espn.php';

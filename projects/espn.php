@@ -1,7 +1,7 @@
 <?php
 	$dir = '../';
 	$h1 = 'The Power of IX Mosaic';
-	$h2 = 'A Microsite for espnW';
+	$h2 = 'Microsite for espnW';
 	$himg = ['../img/espn/design_01.png', 'espnw: The Power of IX Banner'];
 	$prev = 'guitar.php';
 	$next = 'nbc.php';

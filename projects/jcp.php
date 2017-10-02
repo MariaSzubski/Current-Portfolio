@@ -1,7 +1,7 @@
 <?php
 	$dir = '../';
 	$h1 = 'JCPenney Findmore<sup>&trade;</sup> Storefront';
-	$h2 = 'An In-Store Shopping Kiosk';
+	$h2 = 'In-Store Shopping Kiosk';
 	$himg = ['../img/proj_findmore.jpg', 'JCPenney Findmore Kiosk Banner'];
 	$prev = 'kca.php';
 	$next = 'insight.php';

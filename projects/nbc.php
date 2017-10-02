@@ -1,7 +1,7 @@
 <?php
 	$dir = '../';
-	$h1 = 'NBCUniversal Careers';
-	$h2 = 'A Redesigned Website Proposal';
+	$h1 = 'NBC Universal Careers';
+	$h2 = 'Web Design Proposal';
 	$himg = ['../img/proj_nbc.jpg', 'NBC Universal Careers Banner'];
 	$prev = 'espn.php';
 	$next = 'urbanwalls.php';

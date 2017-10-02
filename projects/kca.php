@@ -1,7 +1,7 @@
 <?php
 	$dir = '../';
-	$h1 = 'Wishlist Generator for Kmart';
-	$h2 = "An Advertisement for Kmart &amp; the Nickelodeon Kids' Choice Awards";
+	$h1 = 'Wishlist Generator';
+	$h2 = "Ad for Kmart &amp; the Nickelodeon Kids' Choice Awards";
 	$himg = ['../img/kca/design_01.png', 'Wishlist Generator for Kmart Banner'];
 	$prev = 'urbanwalls.php';
 	$next = 'insight.php';

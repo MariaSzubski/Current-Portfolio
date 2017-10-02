@@ -58,7 +58,7 @@
 						<img src="img/proj_insight.jpg" alt="Insight: Rethinking Standardized Testing">
 						<div class="label">
 							<h2>Insight: Rethinking Standardized Testing</h2>
-							<p>UX Design • HTML • jQuery • PhoneGap</p>
+							<p>UX Design • PhoneGap • jQuery • HTML</p>
 						</div>
 					</a>
 				</div>
@@ -68,8 +68,8 @@
 						<a href="projects/style_guide.php">
 							<img src="img/proj_style_guide.png" alt="Style Guide Template">
 							<div class="label">
-								<h2>Style Guide</h2>
-								<p>Documentation Website Template</p>
+								<h2>Style Guide Template</h2>
+								<p>PHP • AJAX • Git • Responsive Design</p>
 							</div>
 						</a>
 					</div>
@@ -78,6 +78,7 @@
 							<img src="img/proj_codeSnippets.png" alt="JavaScript Code Snippets">
 							<div class="label">
 								<h2>JavaScript Snippets</h2>
+								<p>JavaScript • jQuery</p>
 							</div>
 						</a>
 					</div>
@@ -88,7 +89,7 @@
 							<img src="img/proj_ikea.jpg" alt="IKEA RFID Experience">
 							<div class="label">
 								<h2>IKEA RFID Experience</h2>
-								<p>UX Design • Wayfinding • Animated Visualization</p>
+								<p>UX Design • Wayfinding • Animation</p>
 							</div>
 						</a>
 					</div>
@@ -97,7 +98,7 @@
 							<img src="img/proj_guitar.png" alt="Guitar Practice Log">
 							<div class="label">
 								<h2>Guitar Practice Log</h2>
-								<p>HTML5 • JavaScript • GitHub • Responsive Design</p>
+								<p>JavaScript • Mobile UX • Invision</p>
 							</div>
 						</a>
 					</div>
@@ -107,7 +108,7 @@
 						<img src="img/proj_titleix.jpg" alt="espnW: The Power of IX">
 						<div class="label">
 							<h2>espnW: The Power of IX Mosaic</h2>
-							<p>Web Design</p>
+							<p>UX Design • Branding</p>
 						</div>
 					</a>
 				</div>
@@ -115,8 +116,8 @@
 					<a href="projects/nbc.php">
 						<img src="img/proj_nbc.jpg" alt="NBC Universal Careers Website">
 						<div class="label">
-							<h2>NBC Universal Careers</h2>
-							<p>Web Design</p>
+							<h2>NBCUniversal Careers</h2>
+							<p>UX Design • Branding</p>
 						</div>
 					</a>
 				</div>
@@ -124,7 +125,7 @@
 					<a href="projects/urbanwalls.php">
 						<img src="img/proj_urbanWalls.jpg" alt="Urban Walls: Community Revitalization">
 						<div class="label">
-							<h2>Urban Walls: Community Revitalization</h2>
+							<h2>Urban Walls Story</h2>
 							<p>Motion Graphics • Video Editing</p>
 						</div>
 					</a>
@@ -134,7 +135,7 @@
 						<img src="img/proj_kca.jpg" alt="Wishlist Generator for Kmart">
 						<div class="label">
 							<h2>Wishlist Generator for Kmart</h2>
-							<p>Web Design</p>
+							<p>UX Design • Branding</p>
 						</div>
 					</a>
 				</div>

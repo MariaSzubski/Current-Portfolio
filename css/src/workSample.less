@@ -67,7 +67,7 @@ nav {
 /*                                    WORK SAMPLES: SECTIONS */
 section {
 	box-sizing: border-box;
-	border-top: 4px solid @black;
+	border-top: 3px solid @black;
 	padding: 18px 72px 108px 72px;
 
 	@media (min-width: 48.0625em) and (max-width: 64em) {
@@ -92,8 +92,9 @@ header {
 	position: relative;
 	display: flex;
 	flex-flow: column;
+	align-items: center;
 	padding: 72px 24px;
-	background-color: #0D8072;
+	background-color: @navy;
 
 	& sup {
 		color: @white;
@@ -102,10 +103,17 @@ header {
 		text-shadow: none;
 	}
 
+	& .label{
+		position: relative;
+		z-index: 2;
+		flex: 1;
+
+	}
+
 	& h2 {
 		.f(@fs-2x, 300);
 		text-align: center;
-		color: @white;
+		color: white;
 		line-height: 150%;
 		text-shadow: none;
 	}
@@ -118,8 +126,8 @@ header {
 		box-sizing: border-box;
 		width: 100%;
 		height: 100%;
-		opacity: 0.2;
-		filter: blur(8px);
+		opacity: .05;
+		filter: blur(3px);
 	}
 }
 
@@ -129,7 +137,7 @@ header {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-
+	z-index: 1;
 	@media handheld, (max-width: 48em) {
 		display: none;
 	}

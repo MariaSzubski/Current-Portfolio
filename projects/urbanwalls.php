@@ -1,7 +1,7 @@
 <?php
 	$dir = '../';
-	$h1 = 'Urban Walls: Community Revitalization';
-	$h2 = 'A Cincinnati Public Art Narrative';
+	$h1 = 'Urban Walls';
+	$h2 = 'Public Art &amp; Community Revitalization';
 	$himg = ['../img/urbanwalls/banner.jpg', 'Urban Walls: Community Revitalization Banner'];
 	$prev = 'nbc.php';
 	$next = 'kca.php';
@@ -92,7 +92,7 @@
 		</section>
 
 		<section class="slides endSummary final">
-			<h1>Final Motion Narrative</h1>
+			<h1>Final Story</h1>
 
 			<div id="ratio_uw" class="video">
 				<iframe src="https://player.vimeo.com/video/24535567?color=e3a730&amp;byline=0&amp;portrait=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
