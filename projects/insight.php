@@ -2,7 +2,7 @@
 	$dir = '../';
 	$h1 = 'Insight';
 	$h2 = 'Rethinking Standardized Testing';
-	$himg = ['../img/proj_insight.jpg', 'Insight: Rethinking Standardized Testing Banner'];
+	$himg = ['../img/insight/lg/showcase.png', 'Insight: Rethinking Standardized Testing Banner'];
 	$prev = 'kca.php';
 	$next = 'style_guide.php';
 ?>

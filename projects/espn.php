@@ -2,7 +2,7 @@
 	$dir = '../';
 	$h1 = 'The Power of IX Mosaic';
 	$h2 = 'Microsite for espnW';
-	$himg = ['../img/espn/design_01.png', 'espnw: The Power of IX Banner'];
+	$himg = ['../img/espn/showcase.png', 'espnw: The Power of IX Banner'];
 	$prev = 'guitar.php';
 	$next = 'nbc.php';
 ?>
@@ -28,15 +28,11 @@
 				<p>
 					In celebration the 40th anniversary of Title IX, espnW created the largest mosaic of female athletes in history. Female athletes can upload Facebook photos, search for friends, or search by sport.
 				</p>
-				<dl>
-					<dt>Demonstrated Skills</dt>
-					<dd>Web Design</dd>
-				</dl>
 			</div>
 		</section>
 
 		<section class="slides endSummary final">
-			<h1>Design Details</h1>
+			<h1>Final Design</h1>
 			<div 	class="fotorama"
 					data-width="100%"
 					data-fit="contain"
@@ -54,9 +50,6 @@
 				<p>
 					The final design was built and launched by espnW. The design of the mosaic had to be simple enough to be readable when constructed from photos while being powerful enough to be the main design element on the page.
 				</p>
-			</div>
-			<div class="links">
-				<a href="http://espnwmosaic.com/mosaic.php" class="button" target="_blank">Power of IX Microsite</a>
 			</div>
 		</section>
 

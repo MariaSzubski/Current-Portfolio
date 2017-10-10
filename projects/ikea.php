@@ -2,7 +2,7 @@
 	$dir = '../';
 	$h1 = 'Ikea RFID Experience';
 	$h2 = 'Digital Shopping List &amp; Wayfinding Concept';
-	$himg = ['../img/ikea/lg/analysis_03.png', 'IKEA RFID Experience Banner'];
+	$himg = ['../img/ikea/lg/showcase.png', 'IKEA RFID Experience Banner'];
 	$prev = 'js.php';
 	$next = 'guitar.php';
 ?>
