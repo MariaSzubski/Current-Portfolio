@@ -1,8 +1,8 @@
 <?php
 	$dir = '../';
-	$h1 = 'Wishlist Generator for Kmart';
-	$h2 = "An Advertisement for Kmart &amp; the Nickelodeon Kids' Choice Awards";
-	$himg = ['../img/kca/design_01.png', 'Wishlist Generator for Kmart Banner'];
+	$h1 = 'Wishlist Generator';
+	$h2 = "Ad for Kmart &amp; the Nickelodeon Kids' Choice Awards";
+	$himg = ['../img/kca/showcase.png', 'Wishlist Generator for Kmart Banner'];
 	$prev = 'urbanwalls.php';
 	$next = 'insight.php';
 ?>
@@ -16,15 +16,7 @@
 		<link rel="stylesheet" href="../css/build/fotorama.css">
 		<link rel="stylesheet" href="../css/build/master.css">
 		<link rel="stylesheet" href="../css/build/workSample.css">
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-8457306-3', 'auto');
-			ga('send', 'pageview');
-		</script>
+		<?php include '../template/tracker.inc.php' ?>
 	</head>
 	<body>
 

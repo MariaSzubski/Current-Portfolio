@@ -1,8 +1,8 @@
 <?php
 	$dir = '../';
-	$h1 = 'Urban Walls: Community Revitalization';
-	$h2 = 'A Cincinnati Public Art Narrative';
-	$himg = ['../img/urbanwalls/banner.jpg', 'Urban Walls: Community Revitalization Banner'];
+	$h1 = 'Urban Walls';
+	$h2 = 'Public Art &amp; Community Revitalization';
+	$himg = ['../img/urbanwalls/showcase.png', 'Urban Walls: Community Revitalization Banner'];
 	$prev = 'nbc.php';
 	$next = 'kca.php';
 ?>
@@ -16,15 +16,7 @@
 		<link rel="stylesheet" href="../css/build/fotorama.css">
 		<link rel="stylesheet" href="../css/build/master.css">
 		<link rel="stylesheet" href="../css/build/workSample.css">
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-8457306-3', 'auto');
-			ga('send', 'pageview');
-		</script>
+		<?php include '../template/tracker.inc.php' ?>
 	</head>
 	<body>
 
@@ -92,7 +84,7 @@
 		</section>
 
 		<section class="slides endSummary final">
-			<h1>Final Motion Narrative</h1>
+			<h1>Final Story</h1>
 
 			<div id="ratio_uw" class="video">
 				<iframe src="https://player.vimeo.com/video/24535567?color=e3a730&amp;byline=0&amp;portrait=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

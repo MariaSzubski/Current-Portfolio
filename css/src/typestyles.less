@@ -1,9 +1,19 @@
 @import (reference) 'type_mixins.less';
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Roboto+Condensed:300,400,700|Roboto:300,400|Kalam:300|Satisfy|Pacifico|Coming+Soon|Lobster|Lobster+Two|Merienda+One|Patrick+Hand|Patrick+Hand+SC');
+
+@font-face {
+    font-family: 'Milkshake';
+    src:
+		url('milkshake.otf') format('opentype'),
+		url('milkshake.ttf') format('truetype');
+    font-weight: 300;
+}
+
 
 *{
 	.ff-reg;
 	font-weight:300;
-	color: @navy;
+	//color: @navy;
 }
 
 em{
@@ -52,10 +62,10 @@ h1{
 	width: 100%;
 
 	header &{
-		.ff-reg;
+		font-family: 'Milkshake', 'Roboto Condensed', sans-serif;
 		text-transform: capitalize;
-		font-size: 4.2rem;
-		color: @white;
+		font-size: 3.5rem;
+		color: @green;
 		padding: 0px;
 	}
 
@@ -140,8 +150,10 @@ p{
 
 	.label &{
 		.ff-reg;
-		font-size: @fs-base;
-		line-height: 130%;
+		font-size: .875rem;
+        font-weight: 400;
+        text-transform: uppercase;
+		line-height: 190%;
 		margin-bottom: 0em;
 	}
 

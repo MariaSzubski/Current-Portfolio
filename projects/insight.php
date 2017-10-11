@@ -2,7 +2,7 @@
 	$dir = '../';
 	$h1 = 'Insight';
 	$h2 = 'Rethinking Standardized Testing';
-	$himg = ['../img/proj_insight.jpg', 'Insight: Rethinking Standardized Testing Banner'];
+	$himg = ['../img/insight/lg/showcase.png', 'Insight: Rethinking Standardized Testing Banner'];
 	$prev = 'kca.php';
 	$next = 'style_guide.php';
 ?>
@@ -16,15 +16,7 @@
 		<link rel="stylesheet" href="../css/build/fotorama.css">
 		<link rel="stylesheet" href="../css/build/master.css">
 		<link rel="stylesheet" href="../css/build/workSample.css">
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-8457306-3', 'auto');
-			ga('send', 'pageview');
-		</script>
+		<?php include '../template/tracker.inc.php' ?>
 	</head>
 	<body>
 
@@ -126,7 +118,7 @@
 		</section>
 
 		<section class="slides">
-			<h1>Final Design</h1>
+			<h1>App Design</h1>
 			<div 	class="fotorama"
 					data-width="100%"
 					data-fit="contain"
@@ -157,7 +149,7 @@
 		</section>
 
 		<section class="endSummary final">
-			<h1>Final Design</h1>
+			<h1>Prototype &amp; Process Book</h1>
 			<div class="desc centered">
 				<p>The interactive prototype was built to work in browsers and as a native iOS 5 app.</p>
 			</div>
