@@ -2,7 +2,7 @@
 	$dir = '../';
 	$h1 = 'Wishlist Generator';
 	$h2 = "Ad for Kmart &amp; the Nickelodeon Kids' Choice Awards";
-	$himg = ['../img/kca/design_01.png', 'Wishlist Generator for Kmart Banner'];
+	$himg = ['../img/kca/showcase.png', 'Wishlist Generator for Kmart Banner'];
 	$prev = 'urbanwalls.php';
 	$next = 'insight.php';
 ?>

@@ -2,7 +2,7 @@
 	$dir = '../';
 	$h1 = 'NBC Universal Careers';
 	$h2 = 'Web Design Proposal';
-	$himg = ['../img/proj_nbc.jpg', 'NBC Universal Careers Banner'];
+	$himg = ['../img/nbc/showcase.png', 'NBC Universal Careers Banner'];
 	$prev = 'espn.php';
 	$next = 'urbanwalls.php';
 ?>

@@ -2,7 +2,7 @@
 	$dir = '../';
 	$h1 = 'Guitar Practice Log';
 	$h2 = 'Skill Log and Song Tracker';
-	$himg = ['../img/guitar/lg/banner.png', 'Guitar Practice Log Banner'];
+	$himg = ['../img/guitar/lg/showcase.png', 'Guitar Practice Log Banner'];
 	$prev = 'ikea.php';
 	$next = 'espn.php';
 ?>

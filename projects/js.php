@@ -2,7 +2,7 @@
 	$dir = '../';
 	$h1 = 'JavaScript Snippets';
 	$h2 = 'Code Samples';
-	$himg = ['../img/proj_codeSnippets.png', 'JavaScript Code Snippets Banner'];
+	$himg = ['../img/js/showcase.png', 'JavaScript Code Snippets Banner'];
 	$prev = 'style_guide.php';
 	$next = 'ikea.php';
 ?>

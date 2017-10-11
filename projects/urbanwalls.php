@@ -2,7 +2,7 @@
 	$dir = '../';
 	$h1 = 'Urban Walls';
 	$h2 = 'Public Art &amp; Community Revitalization';
-	$himg = ['../img/urbanwalls/banner.jpg', 'Urban Walls: Community Revitalization Banner'];
+	$himg = ['../img/urbanwalls/showcase.png', 'Urban Walls: Community Revitalization Banner'];
 	$prev = 'nbc.php';
 	$next = 'kca.php';
 ?>
