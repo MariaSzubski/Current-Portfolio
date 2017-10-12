@@ -6,9 +6,9 @@ $(function(){
 	$(window).scroll(function(event){
 		var scroller = $(this).scrollTop();
 		if (scroller-senseSpeed > previousScroll){
-			$("#nav").filter(':not(:animated)').fadeOut(250);
+			$("nav").filter(':not(:animated)').fadeOut(250);
 		} else if (scroller+senseSpeed < previousScroll) {
-			$("#nav").filter(':not(:animated)').fadeIn(250);
+			$("nav").filter(':not(:animated)').fadeIn(250);
 		}
 		previousScroll = scroller;
 	});

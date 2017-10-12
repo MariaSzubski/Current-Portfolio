@@ -19,34 +19,31 @@ section {
 
 /*                                     NAVIGATION  */
 nav.mainnav {
-
-	&.project{
-		background-color: @navy;
-		align-items: flex-start;
-		justify-content: center;
-		& a{
-			.f(.8rem, 400);
-			color: white;
-		}
-	}
-
-	&.home{
-		background-color: white;
-		border-bottom: 2px solid @black;
-		& a{
-			color: @navy;
-		}
-	}
-
-	height: 46px;
+	z-index: 9999;
 	box-sizing: border-box;
 	width: 100%;
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
-	position: fixed;
-	z-index: 9000;
 	top: 0px;
+
+	&.home{
+		background-color: @white;
+		border-bottom: 2px solid @black;
+		position: fixed;
+		& a{
+			color: @navy;
+		}
+	}
+
+	&.project{
+		background-color: @navy;
+		justify-content: center;
+		position: absolute;
+		& a{
+			color: @white;
+		}
+	}
 
 	& > div {
 		box-sizing: border-box;
@@ -59,43 +56,37 @@ nav.mainnav {
 	& a{
 		.ff-cond;
 		.f(1rem, 400);
-		color: white;
 		padding: 1.157em;
 		text-transform: uppercase !important;
-		text-align: left;
+		text-align: center;
 		&:first-of-type{
 			display: none;
 		}
 	}
 
-
 	@media handheld, (max-width: 48em){
 
-		& a,
-		& a:not(:focus){
+		& a{
 			height: 56px;
 			min-height: 56px;
 			text-align: center;
-			background-color: @white;
-			transition: background-color 0.2s;
 
 			&:first-of-type{
 				display:inline;
-				color: @grey;
-				text-decoration: none;
 			}
 
-			&:not(:first-of-type):hover,
-			&:not(:first-of-type):focus{
+			&:hover{
 				background-color: @yellow;
-				color: @grey;
 				text-decoration: none;
 				transition: background-color 0.9s;
 			}
 		}
 
-		& > div,
-		& > div:not(:focus){
+		&.project{
+			background-color: @navy-lt;
+		}
+
+		& > div{
 			flex-flow: column;
 			justify-content: flex-start;
 			width: 100%;
@@ -103,8 +94,7 @@ nav.mainnav {
 			overflow: hidden;
 			transition: max-height 0.3s;
 
-			&:hover,
-			&:focus{
+			&:hover{
 				max-height: 340px;
 				transition: max-height 0.3s;
 			}

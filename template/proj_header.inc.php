@@ -1,5 +1,5 @@
-<nav class="mainnav">
-	<div id="nav project">
+<nav class="mainnav project">
+	<div>
 		<a>Menu</a>
 		<a href="..">Home</a>
 		<a href="../#workSamples">Work Samples</a>

@@ -15,7 +15,6 @@
 		<nav class="mainnav home">
 			<div id="nav">
 				<a>Menu</a>
-				<a href="index.php">Home</a>
 				<a href="#workSamples">Work Samples</a>
 				<a href="#experience">Experience</a>
 				<a href="#aboutMe">About Me</a>
