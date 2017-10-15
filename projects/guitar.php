@@ -34,8 +34,9 @@
 				<dl>
 					<dt>Demonstrated Skills</dt>
 					<dd>JavaScript</dd>
-					<dd>GitHub</dd>
-					<dd>HTML5</dd>
+					<dd>HTML5 / LESS</dd>
+					<dd>Git</dd>
+					<dd>InVision</dd>
 					<dd>Wireframing</dd>
 					<dd>Responsive Design</dd>
 					<dd>Data Visualization</dd>
@@ -83,7 +84,7 @@
 		</section>
 
 		<section class="slides">
-			<h1>Mobile App Designs</h1>
+			<h1>App Design</h1>
 			<div 	class="fotorama"
 					data-width="100%"
 					data-height="640"
@@ -110,11 +111,11 @@
 
 
 		<section class="endSummary final">
-			<h1>Interactive Demo</h1>
-			<div class="desc centered">
-				<p>The Guitar Practice Log demo is built in HTML &amp; JavaScript.</p>
-			</div>
+			<h1>Prototype</h1>
 			<div class="links">
+
+				<a href="https://projects.invisionapp.com/share/DMBEWND49#/screens" class="button" target="_blank">InVision Prototype</a>
+				<a href="https://projects.invisionapp.com/boards/KT37Z36ECUAVD/" class="button" target="_blank">InVision Design Board</a>
 				<a href="https://github.com/MariaSzubski/GuitarPractice" class="button" target="_blank">Project Files on GitHub</a>
 			</div>
 		</section>
