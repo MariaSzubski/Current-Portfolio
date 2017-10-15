@@ -1,4 +1,5 @@
-<?php $dir = '' ?>
+<?php $dir = '';
+	  $aws = 'https://s3.us-east-2.amazonaws.com/msz-portfolio/' ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -24,7 +25,11 @@
 		</nav>
 
 		<header id="intro">
-			<img src="img/headshot.jpg" alt="Maria Szubski Headshot">
+			<img 	srcset="<?=$aws?>index/headshot.jpg,
+							<?=$aws?>index/headshot@2x.jpg 2x,
+							<?=$aws?>index/headshot@3x.jpg 3x,
+							<?=$aws?>index/headshot@4x.jpg 4x"
+					src="<?=$aws?>index/headshot@3x.jpg" alt="Maria Szubski Headshot">
 			<h1>Maria Szubski</h1>
 			<p>UX Designer  &amp; Front End Developer</p>
 			<ul id="social">
@@ -38,8 +43,6 @@
 			<a href="assets/MariaSzubski_Resume.pdf" class="button" download>Download Resume</a>
 		</header>
 
-
-
 		<section id="workSamples">
 			<h1>Work Samples</h1>
 
@@ -47,7 +50,10 @@
 
 				<div class="caseStudy" id="ws_1">
 					<a href="projects/insight.php">
-						<img src="img/proj_insight.jpg" alt="Insight: Rethinking Standardized Testing">
+						<img 	srcset="<?=$aws?>index/proj_insight.jpg 357w,
+										<?=$aws?>index/proj_insight@2x.jpg 713w,
+										<?=$aws?>index/proj_insight@3x.jpg 1079w"
+								src="<?=$aws?>index/proj_insight@3x.jpg" alt="Insight: Rethinking Standardized Testing">
 						<div class="label">
 							<h2>Insight: Rethinking Standardized Testing</h2>
 							<p>UX Design • PhoneGap • jQuery • HTML</p>
@@ -55,10 +61,12 @@
 					</a>
 				</div>
 				<div id="wsGroup_1">
-
 					<div class="caseStudy" id="ws_2">
 						<a href="projects/style_guide.php">
-							<img src="img/proj_style_guide.png" alt="Style Guide Template">
+							<img  	srcset="<?=$aws?>index/proj_style_guide.png 240w,
+											<?=$aws?>index/proj_style_guide@2x.png 480w,
+											<?=$aws?>index/proj_style_guide@3x.png 720w"
+									src="<?=$aws?>index/proj_style_guide@3x.png" alt="Style Guide Template">
 							<div class="label">
 								<h2>Style Guide Template</h2>
 								<p>PHP • AJAX • Git • Responsive Design</p>
@@ -67,7 +75,9 @@
 					</div>
 					<div class="caseStudy" id="ws_3">
 						<a href="projects/js.php">
-							<img src="img/proj_codeSnippets.png" alt="JavaScript Code Snippets">
+							<img   	srcset="<?=$aws?>index/proj_style_guide.png 257w,
+											<?=$aws?>index/proj_style_guide@2x.png 513w"
+									src="<?=$aws?>index/proj_style_guide@2x.png" alt="JavaScript Code Snippets">
 							<div class="label">
 								<h2>JavaScript Snippets</h2>
 								<p>JavaScript • jQuery</p>
@@ -78,7 +88,10 @@
 				<div id="wsGroup_2">
 					<div class="caseStudy" id="ws_4">
 						<a href="projects/ikea.php">
-							<img src="img/proj_ikea.jpg" alt="IKEA RFID Experience">
+							<img   	srcset="<?=$aws?>index/proj_ikea.png 240w,
+											<?=$aws?>index/proj_ikea@2x.png 480w,
+											<?=$aws?>index/proj_ikea@3x.png 720w"
+									src="<?=$aws?>index/proj_ikea@3x.png" alt="IKEA RFID Experience">
 							<div class="label">
 								<h2>IKEA RFID Experience</h2>
 								<p>UX Design • Wayfinding • Animation</p>
@@ -87,7 +100,9 @@
 					</div>
 					<div class="caseStudy" id="ws_5">
 						<a href="projects/guitar.php">
-							<img src="img/proj_guitar.png" alt="Guitar Practice Log">
+							<img    srcset="<?=$aws?>index/proj_guitar.png 180w,
+											<?=$aws?>index/proj_guitar@2x.png 360w"
+									src="<?=$aws?>index/proj_guitar@2x.png" alt="Guitar Practice Log">
 							<div class="label">
 								<h2>Guitar Practice Log</h2>
 								<p>JavaScript • Mobile UX • Invision</p>
@@ -97,7 +112,10 @@
 				</div>
 				<div class="caseStudy" id="ws_6">
 					<a href="projects/espn.php">
-						<img src="img/proj_titleix.jpg" alt="espnW: The Power of IX">
+						<img   	srcset="<?=$aws?>index/proj_titleix.jpg 240w,
+										<?=$aws?>index/proj_titleix@2x.jpg 480w,
+										<?=$aws?>index/proj_titleix@3x.jpg 720w"
+								src="<?=$aws?>index/proj_titleix@3x.jpg" alt="espnW: The Power of IX">
 						<div class="label">
 							<h2>espnW: The Power of IX Mosaic</h2>
 							<p>UX Design • Branding</p>
@@ -106,7 +124,10 @@
 				</div>
 				<div class="caseStudy" id="ws_7">
 					<a href="projects/nbc.php">
-						<img src="img/proj_nbc.jpg" alt="NBC Universal Careers Website">
+						<img   	srcset="<?=$aws?>index/proj_nbc.png 240w,
+										<?=$aws?>index/proj_nbc@2x.png 480w,
+										<?=$aws?>index/proj_nbc@3x.png 720w"
+								src="<?=$aws?>index/proj_nbc@3x.png" alt="NBC Universal Careers Website">
 						<div class="label">
 							<h2>NBCUniversal Careers</h2>
 							<p>UX Design • Branding</p>
@@ -115,7 +136,10 @@
 				</div>
 				<div class="caseStudy" id="ws_8">
 					<a href="projects/urbanwalls.php">
-						<img src="img/proj_urbanWalls.jpg" alt="Urban Walls: Community Revitalization">
+						<img    srcset="<?=$aws?>index/proj_urbanWalls.jpg 240w,
+										<?=$aws?>index/proj_urbanWalls@2x.jpg 480w,
+										<?=$aws?>index/proj_urbanWalls@3x.jpg 720w"
+								src="<?=$aws?>index/proj_urbanWalls@3x.jpg" alt="Urban Walls: Community Revitalization">
 						<div class="label">
 							<h2>Urban Walls Story</h2>
 							<p>Motion Graphics • Video Editing</p>
@@ -124,7 +148,10 @@
 				</div>
 				<div class="caseStudy" id="ws_9">
 					<a href="projects/kca.php">
-						<img src="img/proj_kca.jpg" alt="Wishlist Generator for Kmart">
+						<img    srcset="<?=$aws?>index/proj_kca.png 240w,
+										<?=$aws?>index/proj_kca@2x.png 480w,
+										<?=$aws?>index/proj_kca@3x.png 720w"
+								src="img/proj_kca@.png" alt="Wishlist Generator for Kmart">
 						<div class="label">
 							<h2>Wishlist Generator for Kmart</h2>
 							<p>UX Design • Branding</p>
