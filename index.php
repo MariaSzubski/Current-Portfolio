@@ -38,7 +38,6 @@
 				<li><a href="https://www.hackerrank.com/MariaSzubski" target="_blank"><img src="img/soc_hackerrank.svg" alt="Hackerrank" title="Hackerrank"></a></li>
 				<li><a href="https://twitter.com/MariaSzubski" target="_blank"><img src="img/soc_twitter.svg" alt="Twitter" title="Twitter"></a></li>
 				<li><a href="mailto:mariaszubski@gmail.com" target="_blank"><img src="img/soc_email.svg" alt="Email" title="Email"></a></li>
-
 			</ul>
 			<a href="assets/MariaSzubski_Resume.pdf" class="button" download>Download Resume</a>
 		</header>
@@ -75,9 +74,9 @@
 					</div>
 					<div class="caseStudy" id="ws_3">
 						<a href="projects/js.php">
-							<img   	srcset="<?=$aws?>index/proj_style_guide.png 257w,
-											<?=$aws?>index/proj_style_guide@2x.png 513w"
-									src="<?=$aws?>index/proj_style_guide@2x.png" alt="JavaScript Code Snippets">
+							<img   	srcset="<?=$aws?>index/pproj_codeSnippets.png 257w,
+											<?=$aws?>index/proj_codeSnippets@2x.png 513w"
+									src="<?=$aws?>index/proj_codeSnippets@2x.png" alt="JavaScript Code Snippets">
 							<div class="label">
 								<h2>JavaScript Snippets</h2>
 								<p>JavaScript • jQuery</p>
