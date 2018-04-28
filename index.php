@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Maria Szubski • Front End Developer &amp; UX Designer • Design Portfolio</title>
+		<title>Maria Szubski • Front-End Web Developer • Independent Contractor</title>
 		<link rel="stylesheet" href="css/build/typestyles.css">
 		<link rel="stylesheet" href="css/build/master.css">
 		<link rel="stylesheet" href="css/build/intro.css">
@@ -19,7 +19,7 @@
 				<a href="#workSamples">Work Samples</a>
 				<a href="#experience">Experience</a>
 				<a href="#aboutMe">About Me</a>
-				<a href="#involveRec">Involvement &amp; Recognition</a>
+				<a href="#involveRec">Classes &amp; Recognition</a>
 				<a href="assets/MariaSzubski_Resume.pdf" download>Resume (PDF)</a>
 			</div>
 		</nav>
@@ -31,13 +31,12 @@
 							<?=$aws?>index/headshot@4x.jpg 4x"
 					src="<?=$aws?>index/headshot@3x.jpg" alt="Maria Szubski Headshot">
 			<h1>Maria Szubski</h1>
-			<p>UX Designer  &amp; Front End Developer</p>
+			<p>Front-End Web Developer</p>
 			<ul id="social">
 				<li><a href="https://www.linkedin.com/in/MariaSzubski" target="_blank"><img src="img/soc_linkedin.svg" alt="LinkedIn" title="LinkedIn"></a></li>
 				<li><a href="https://github.com/MariaSzubski" target="_blank"><img src="img/soc_github.svg" alt="GitHub" title="GitHub"></a></li>
-				<li><a href="https://www.hackerrank.com/MariaSzubski" target="_blank"><img src="img/soc_hackerrank.svg" alt="Hackerrank" title="Hackerrank"></a></li>
 				<li><a href="https://twitter.com/MariaSzubski" target="_blank"><img src="img/soc_twitter.svg" alt="Twitter" title="Twitter"></a></li>
-				<li><a href="mailto:mariaszubski@gmail.com" target="_blank"><img src="img/soc_email.svg" alt="Email" title="Email"></a></li>
+				<li><a href="mailto:hello@mariaszubski.com" target="_blank"><img src="img/soc_email.svg" alt="Email" title="Email"></a></li>
 			</ul>
 			<a href="assets/MariaSzubski_Resume.pdf" class="button" download>Download Resume</a>
 		</header>
@@ -164,51 +163,67 @@
 
 
 		<section id="experience">
-			<h1>Experience</h1>
+
 			<div id="expContainer">
+        <h1>Professional Experience</h1>
+				<article>
+					<div>
+						<h2>Front-End Web Developer</h2>
+						<h3><a href="https://mariaszubski.com/" title="Maria Szubski Digital, LLC" target="_blank">Maria Szubski Digital, LLC</a> • Independent Contractor</h3>
+						<h4>Work with clients to strategize and build web applications, with an emphasis on front-end development, JavaScript, and the implementation of responsive design.</h4>
+					</div>
+					<div>
+						<h5>
+							<img src="img/i_location.svg" alt="location">Cincinnati, OH
+						</h5>
+						<h6>
+              <img src="img/i_date.svg" alt="date">Jan 2018 – Present
+						</h6>
+					</div>
+				</article>
+        <article>
+					<div>
+						<h2>Chapter Leader & Instructor</h2>
+						<h3><a href="https://www.girldevelopit.com/chapters/cincinnati" title="Girl Develop It" target="_blank">Girl Develop It</a> • Cincinnati Chapter</h3>
+						<h4>Responsible for leading and supporting a vibrant community of instructors, volunteers, and students. Plan quarterly course schedule, promote events, foster community partnerships, grow the chapter, and run day-to-day operations. Event co-ordinator in charge of overseeing organizers. Instructor for the Intro to HTML/CSS classes.</h4>
+					</div>
+					<div>
+						<h5>
+							<img src="img/i_location.svg" alt="location">Cincinnati, OH
+						</h5>
+						<h6>
+              <img src="img/i_date.svg" alt="date">Apr 2018 – Present
+						</h6>
+					</div>
+				</article>
 				<article>
 					<div>
 						<h2>UX Designer</h2>
 						<h3><a href="http://www.nielsen.com/" title="Nielsen" target="_blank">Nielsen</a> • User Experience Team </h3>
-						<h4>Govern Nielsen’s collection of big data applications to ensure brand cohesion, consistency, and ease of use. Design across multiple frameworks including AngularJS, Sencha, MicroStrategy, and D3. Create mobile applications that adhere to iOS and Material Design guidelines. Build and maintain UX Standards documentation website using PHP and AJAX.</h4>
+						<h4>Governed Nielsen’s collection of big data applications to ensure brand cohesion, consistency, and ease of use. Designed interfaces across multiple frameworks including AngularJS, Sencha, MicroStrategy, and D3. Created mobile applications that adhere to iOS and Material Design guidelines. Built and maintained UX Standards documentation website using PHP and AJAX.</h4>
 					</div>
 					<div>
 						<h5>
-							<img src="img/i_date.svg" alt="Time Period" title="Time Period"> Nov 2012 to Present
+							<img src="img/i_location.svg" alt="Location" title="Location">Cincinnati, OH
 						</h5>
 						<h6>
-							<img src="img/i_location.svg" alt="Location" title="Location">Cincinnati, OH
+              <img src="img/i_date.svg" alt="Time Period" title="Time Period"> Nov 2012 – Dec 2017
 						</h6>
 					</div>
 				</article>
-				<article>
-					<div>
-						<h2>Class Organizer</h2>
-						<h3><a href="https://www.girldevelopit.com/chapters/cincinnati" title="Girl Develop It Cincinnati" target="_blank">Girl Develop It</a> • Cincinnati Chapter</h3>
-						<h4>Work with Instructors and Chapter leaders to plan classes and events for Girl Develop It Cincinnati. Secure venues and promote classes on social media. Review scholarship applications. Assist with class set up and operations.
-						</h4>
-					</div>
-					<div>
-						<h5>
-							<img src="img/i_date.svg" alt="Time Period" title="Time Period">July 2017 to Present
-						</h5>
-						<h6>
-							<img src="img/i_location.svg" alt="Location" title="Location">Cincinnati, OH
-						</h6>
-					</div>
-				</article>
+          <h1>Internships</h1>
 				<article>
 					<div>
 						<h2>Design Intern</h2>
 						<h3><a href="http://momentdesign.com" title="Moment Design" target="_blank">Moment Design</a> • Digital Product Design Firm</h3>
-						<h4>Improved usability and consistency of data-driven web and mobile products. Researched rapid prototyping tools to accelerate company’s output.</h4>
+						<h4>Created designs that improved usability and consistency of data-driven web and mobile products. Researched rapid prototyping tools to accelerate output.</h4>
 					</div>
 					<div>
 						<h5>
-							<img src="img/i_date.svg" alt="Time Period" title="Time Period">Winter 2012
+							<img src="img/i_location.svg" alt="Location" title="Location">New York, NY
 						</h5>
 						<h6>
-							<img src="img/i_location.svg" alt="Location" title="Location">New York, NY
+              <img src="img/i_date.svg" alt="Time Period" title="Time Period">Winter 2012
 						</h6>
 					</div>
 				</article>
@@ -216,14 +231,14 @@
 					<div>
 						<h2>Interactive Design Intern</h2>
 						<h3><a href="http://www.antfarm.net/" title="The Ant Farm" target="_blank">The Ant Farm</a> • Entertainment Advertising Agency</h3>
-						<h4>Developed jQuery-based sites to publicize company achievements. Created assets for advertising campaigns, including Flash banner ads and social media themes.</h4>
+						<h4>Developed jQuery-based site to promote company accomplishments. Created assets for ad campaigns, including website designs and social media themes.</h4>
 					</div>
 					<div>
 						<h5>
-							<img src="img/i_date.svg" alt="Time Period" title="Time Period">Winter &amp; Summer 2011
+							<img src="img/i_location.svg" alt="Location" title="Location">Los Angeles, CA
 						</h5>
 						<h6>
-							<img src="img/i_location.svg" alt="Location" title="Location">Los Angeles, CA
+							<img src="img/i_date.svg" alt="Time Period" title="Time Period">Winter &amp; Summer 2011
 						</h6>
 					</div>
 				</article>
@@ -231,14 +246,14 @@
 					<div>
 						<h2>Digital Design Intern</h2>
 						<h3><a href="http://www.jcpenney.com/" title="JCPenney" target="_blank">JCPenney</a> • IT Innovations Department</h3>
-						<h4>Improved customers’ shopping experience by redesigning interfaces for iPad and large-format kiosk applications. Pitched concepts for digital shopping experiences.</h4>
+						<h4>Improved customers’ shopping experience by redesigning large-format kiosk and iPad app interfaces. Pitched concepts for digital shopping experiences.</h4>
 					</div>
 					<div>
 						<h5>
-							<img src="img/i_date.svg" alt="Time Period" title="Time Period">Summer 2010
+              <img src="img/i_location.svg" alt="Location" title="Location">Dallas, TX
 						</h5>
 						<h6>
-							<img src="img/i_location.svg" alt="Location" title="Location">Dallas, TX
+							<img src="img/i_date.svg" alt="Time Period" title="Time Period">Summer 2010
 						</h6>
 					</div>
 				</article>
@@ -250,10 +265,10 @@
 					</div>
 					<div>
 						<h5>
-							<img src="img/i_date.svg" alt="Time Period" title="Time Period">Winter 2010
+							<img src="img/i_location.svg" alt="Location" title="Location">Cincinnati, OH
 						</h5>
 						<h6>
-							<img src="img/i_location.svg" alt="Location" title="Location">Cincinnati, OH
+              <img src="img/i_date.svg" alt="Time Period" title="Time Period">Winter 2010
 						</h6>
 					</div>
 				</article>
@@ -261,34 +276,44 @@
 					<div>
 						<h2>Web Design Intern</h2>
 						<h3><a href="http://www.evenflo.com/" title="Evenflo" target="_blank">Evenflo</a> • Marketing Department</h3>
-						<h4>Maintained internal CMS and social networks. Built interactive guides in Flash to provide customers with tips for using the company’s products.</h4>
+						<h4>Built interactive guides in Flash that walked customers through installation and use of company’s products. Maintained internal CMS and social networks. </h4>
 					</div>
 					<div>
 						<h5>
+							<img src="img/i_location.svg" alt="Location" title="Location">Miamisburg, OH
+						<h6>
 							<img src="img/i_date.svg" alt="Time Period" title="Time Period">Summer 2009
 						</h5>
-						<h6>
-							<img src="img/i_location.svg" alt="Location" title="Location">Miamisburg, OH
 						</h6>
 					</div>
 				</article>
-				<h1>Volunteer Experience</h1>
 
-				<article>
+				<h1>Volunteer Experience</h1>
+        <article>
 					<div>
-						<h2>Web Development Class Organizer &amp; Teaching Assistant</h2>
+						<h2>Class Organizer</h2>
 						<h3><a href="https://www.girldevelopit.com/" title="Girl Develop It" target="_blank">Girl Develop It</a> • Cincinnati Chapter</h3>
-						<h4>Work with Chapter Leaders to plan quarterly curriculum. Organize classes and promote them on social media. Award scholarships. Provide mentoring to students.</h4>
+						<h4>Work with Chapter Leaders to plan quarterly curriculum and and events. Secure venues and promote classes on social media. Award scholarships. Provide mentoring to students. Assist with class setup and operations.</h4>
 					</div>
 					<div>
 						<h5>
-							<img src="img/i_date.svg" alt="date">2015 – Present
+							<img src="img/i_date.svg" alt="date">Jul 2017 – Apr 2018
 						</h5>
-						<h6>
-							<img src="img/i_location.svg" alt="location">Cincinnati, OH
-						</h6>
 					</div>
 				</article>
+				<article>
+					<div>
+						<h2>Teaching Assistant</h2>
+						<h3><a href="https://www.girldevelopit.com/" title="Girl Develop It" target="_blank">Girl Develop It</a> • Cincinnati Chapter</h3>
+						<h4>Assist class Instructors by providing mentoring to students during class.</h4>
+					</div>
+					<div>
+						<h5>
+							<img src="img/i_date.svg" alt="date">Nov 2015 – Jul 2017
+						</h5>
+					</div>
+				</article>
+
 
 				<h1>Education</h1>
 
@@ -296,15 +321,12 @@
 					<div>
 						<h2>Bachelor of Science in Digital Design</h2>
 						<h3>University of Cincinnati: College of Design, Architecture, Art &amp; Planning</h3>
-						<h4>Participated in the Professional Practice program, alternating quarters of courses with job experience in the field of Digital Design.</h4>
+						<h4>Participated in the Professional Practice program, alternating quarters of classes with quarters of work experience in the field of Digital Design.</h4>
 					</div>
 					<div>
 						<h5>
 							<img src="img/i_date.svg" alt="date">Class of 2012
 						</h5>
-						<h6>
-							<img src="img/i_location.svg" alt="location">Cincinnati, OH
-						</h6>
 					</div>
 				</article>
 			</div>
@@ -317,42 +339,52 @@
 			<h1>About Me</h1>
 			<div>
 				<p>
-					Maria is currently UX Designer at Nielsen, building data-driven web &amp; mobile products. She is also a web development teaching assistant for the Girl Develop It: Cincinnati. She loves creative problem solving and strives to create applications that are easy to use. In her free time she practices yoga and is learning to play guitar.
+					I am a Front-End Web Developer who loves tinkering with code and building easy-to-use products. I focus on usability and creative problem solving and enjoy seeing the impact of my work on the people who use the products I create.
+        </p>
+        <p>
+          I'm also a Chapter Leader and Instructor with Girl Develop It Cincinnati, a non-profit that provides accessible web development and technology classes to empower women.
 				</p>
 			</div>
 			<div id="skills">
 				<dl>
 					<dt>Development Skills</dt>
-					<dd>HTML5</dd>
-					<dd>CSS3, LESS</dd>
-					<dd>ES6, jQuery, AJAX</dd>
+					<dd>HTML5, CSS3, SCSS, LESS</dd>
+					<dd>ES6, AJAX, jQuery</dd>
 					<dd>Git, GitHub</dd>
-					<dd>Grunt</dd>
+					<dd>Bootstrap, Wordpress</dd>
 				</dl>
 				<dl>
 					<dt>Design Skills</dt>
 					<dd>Web &amp; Mobile UI Design</dd>
 					<dd>UX Architecture</dd>
 					<dd>Responsive Design</dd>
-					<dd>Data Visualization</dd>
 					<dd>Usability Testing</dd>
-				</dl>
-				<dl>
-					<dt>Current Tools</dt>
-					<dd>Adobe Illustrator CC</dd>
-					<dd>Adobe Photoshop CC</dd>
-					<dd>InVision App</dd>
-					<dd>Atom</dd>
-					<dd>WordPress &amp; Grav CMS</dd>
 				</dl>
 			</div>
 		</section>
 
 
 		<section id="involveRec">
-			<h1>Involvement &amp; Recognition</h1>
-			<div id="invContainer">
+      <h1>Classes Taught</h1>
+      <div id="classContainer">
+        <article>
+          <div class="cl_01"><img src="img/i_presentation.svg" alt="publication" title="Class"></div>
+          <div class="cl_02"><h2>Code Your First Website</h2></div>
+          <div class="cl_03">Girl Develop It Cincinnati</div>
+          <div class="cl_04">April 2018</div>
+        </article>
 
+        <article>
+          <div class="cl_01"><img src="img/i_presentation.svg" alt="publication" title="Class"></div>
+          <div class="cl_02"><h2>Code Your First Website: New Year's Edition</h2></div>
+          <div class="cl_03">Girl Develop It Cincinnati</div>
+          <div class="cl_04">January 2018</div>
+        </article>
+      </div>
+
+
+      <h1>Recognition</h1>
+			<div id="invContainer">
 					<article>
 						<img src="img/i_info.svg" alt="info" title="Details">
 						<div class="layer1">
@@ -404,20 +436,6 @@
 						</div>
 						<div class="layer2">
 							<p>Awarded for a “visually appealing, eye-opening” presentation regarding UX engagement in project requirements and planning.</p>
-						</div>
-					</article>
-
-
-					<article>
-						<img src="img/i_info.svg" alt="info" title="Details">
-						<div class="layer1">
-							<h2>Understanding Products Team</h2>
-							<h3>Nielsen Employee Engagement</h3>
-							<h4>2014 – 2015</h4>
-							<img src="img/i_group.svg" alt="group" title="Community">
-						</div>
-						<div class="layer2">
-							<p>The goal of the Understanding Product team is to improve associates’ understanding of Nielsen's suite of products. Our efforts are being used to drive new initiatives within the organization.</p>
 						</div>
 					</article>
 
@@ -489,20 +507,6 @@
 						</div>
 						<div class="layer2">
 							<p>Awarded to Nielsen Report Builder team for outstanding performance, innovation, and dedication. The use of Agile methodology influenced the process of future Nielsen products.</p>
-						</div>
-					</article>
-
-
-					<article>
-						<img src="img/i_info.svg" alt="info" title="Details">
-						<div class="layer1">
-							<h2>The Giving Fields</h2>
-							<h3>Freestore Foodbank Volunteer</h3>
-							<h4>2012 – 2015</h4>
-							<img src="img/i_group.svg" alt="group" title="Community">
-						</div>
-						<div class="layer2">
-							<p>The Giving Fields is a community farm in Melbourne, KY that provides fresh produce to local food pantries and soup kitchens. I volunteer by planting and harvesting crops.</p>
 						</div>
 					</article>
 

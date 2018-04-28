@@ -5,7 +5,7 @@
 		<a href="../#workSamples">Work Samples</a>
 		<a href="../#experience">Experience</a>
 		<a href="../#aboutMe">About Me</a>
-		<a href="../#involveRec">Involvement &amp; Recognition</a>
+		<a href="../#involveRec">Classes &amp; Recognition</a>
 		<a href="../assets/MariaSzubski_Resume.pdf" download>Resume (PDF)</a>
 	</div>
 </nav>

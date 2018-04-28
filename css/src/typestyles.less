@@ -94,41 +94,54 @@ h2{
 	}
 
 	#expContainer &{
-		font-size: @fs-2x;
+    .ff-cond;
+    .f(@fs-1x, 700);
+    color: @grey;
 	}
 
-	#invContainer &{
-		font-size: 1.125rem;
+	#classContainer &, #invContainer &{
+    .ff-cond;
+    .f(1.125rem, 700);
+    color: @grey;
 	}
 }
 
 // Card Descriptions
 h3{
 	#expContainer &{
-		.f(@fs-1x, 300);
+		.f(@fs-sm, 500);
+    color: @grey;
 	}
 
-	#invContainer &{
-		.f(@fs-base, 300);
+	#classContainer &, #invContainer &{
+		.f(@fs-sm, 300);
 	}
 }
 
 h4{
-	font-size: @fs-base;
-	line-height: 140%;
-	margin-top: 8px;
+	font-size: .95rem;
+	line-height: 150%;
+	margin-top: 18px;
 	#invContainer &{
 		margin-top: 4px;
+    .f(0.8rem, 400);
+    color: @grey-lt;
+    text-transform: uppercase;
 	}
 }
 
 h5{
-	font-size: @fs-base;
+	.f(0.8rem, 400);
+  color: @grey-lt;
+  text-transform: uppercase;
 }
 
 h6{
-	font-size: @fs-base;
-	margin-top: 0.9em;
+  .f(0.8rem, 400);
+  color: @grey-lt;
+  text-transform: uppercase;
+  margin-top: 1.2em;
+  line-height: 140%;
 }
 
 
@@ -151,8 +164,8 @@ p{
 	.label &{
 		.ff-reg;
 		font-size: .875rem;
-        font-weight: 400;
-        text-transform: uppercase;
+    font-weight: 400;
+    text-transform: uppercase;
 		line-height: 190%;
 		margin-bottom: 0em;
 	}
@@ -287,6 +300,10 @@ a{
 		.f(1.15rem ~'!important', 600);
 		margin-bottom: 4px;
 
+    #classContainer &{
+      .f(0.9rem, 700) !important;
+    }
+
 		header &{
 			.ff-reg;
 			font-size: @fs-1x !important;
@@ -304,15 +321,21 @@ a{
 		line-height:  140% !important;
 
 		#invContainer &{
-			font-weight:  400 !important;
-			margin-top: 2px !important;
+			margin-top: 4px !important;
+      .f(0.8rem, 400);
+      text-transform: capitalize;
 		}
 	}
 
 	h5, h6{
 		.f(0.9rem ~'!important', 300 ~'!important');
 		line-height: 140% !important;
+    text-transform: capitalize;
 	}
+
+  .cl_04{
+    .f(0.9rem, 400);
+  }
 
 	p{
 		font-size: 1rem !important;
