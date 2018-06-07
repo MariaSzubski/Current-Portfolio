@@ -12,7 +12,6 @@ html{
   color: $navy;
   box-sizing: inherit;
   font-size: inherit;
-  color: inherit;
   font-family: inherit;
 }
 
@@ -27,6 +26,10 @@ ul, li{
 a{
   color: $green;
   text-decoration: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
 p{
@@ -60,7 +63,6 @@ h3{
   font-size: 3.8rem;
   text-align: center;
   font-weight: 300;
-  margin-top: 30px;
   text-transform: uppercase;
 }
 
@@ -71,9 +73,16 @@ h4{
 
 h5{
   font-weight: 700;
-  margin-top: 3px;
+  margin-top: 2px;
   margin-bottom: 12px;
   font-size: 1.4rem;
+  color: $navy-lt;
+  text-transform: uppercase;
+}
+
+h6{
+  font-weight: 400;
+  font-size: 1.2rem;
   color: $navy-lt;
   text-transform: uppercase;
 }
@@ -103,4 +112,45 @@ footer{
   margin-top: 20px;
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+
+details{
+  font-size: 1.6rem;
+
+  & > summary:before{
+    display: inline-block;
+    content: url(../img/i_arrow.svg);
+    transform: rotate(0deg);
+    margin-left: 1px;
+    margin-right: 8px;
+  }
+
+  &[open] > summary:before{
+    transform: rotate(90deg);
+  }
+
+  summary{
+    font-weight: 700;
+		user-select: none;
+    line-height: 180%;
+    &:focus{
+      outline: none;
+    }
+    &:hover{
+			cursor: pointer;
+		}
+    &::-webkit-details-marker {
+  		display: none;
+  	}
+  	&::-moz-list-bullet {
+  		list-style-type: none;
+  	}
+
+  }
+  ul{
+    margin-left: 1.4em;
+  }
+  li{
+    line-height: 200%;
+  }
 }
