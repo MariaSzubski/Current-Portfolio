@@ -1,0 +1,68 @@
+.logo{
+  width: 64px;
+  margin: auto;
+}
+
+#social-links {
+	& ul {
+		display: flex;
+    margin: auto;
+	}
+
+	& li {
+		flex: 1;
+	}
+
+	& a {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0px 12px;
+		color: $navy;
+		padding: 0px;
+		min-width: 80px;
+    img{
+      width:32px;
+    }
+		&:hover img {
+			margin-top: -34px;
+			cursor: pointer;
+		}
+	}
+
+	& div {
+		height: 34px;
+		margin-bottom: 8px;
+		overflow: hidden;
+	}
+}
+
+button {
+  display: block;
+  margin: auto;
+  
+  a{
+  	padding: 10px 28px;
+  	border-radius: 5px;
+  	border: 2px solid $green;
+  	background-color: $white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  	transition: border-color .3s ease,
+  		background-color .3s ease,
+  		color .3s ease;
+
+  	&:hover{
+  		border-color: #E3A730;
+  		background-color: $yellow;
+      cursor: pointer;
+  		text-decoration: none;
+  		color: $navy;
+  		transition: border-color .3s ease,
+  			background-color .3s ease,
+        color .3s ease;
+  	}
+  }
+}

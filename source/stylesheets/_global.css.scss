@@ -1,78 +1,85 @@
 html{
-    font-size: 62.5%;
-    padding: 0px;
-    margin: 0px;
     box-sixing: border-box;
-    color: #2b2e3c;
-      font-family: 'Nunito', sans-serif;
-}
-
-img{
-  display: block;
+    font-size: 62.5%;
+    @extend %nunito;
 }
 
 *, *:before, *:after{
-  padding: inherit;
-  margin: inherit;
-  font-size: inherit;
+  padding: 0px;
+  margin: 0px;
+  margin: 0px;
+  border: 0px;
+  color: $navy;
   box-sizing: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+}
+
+img{
+  display: inline-block;
+}
+
+ul, li{
+  list-style-type: none;
+}
+
+a{
+  color: $green;
+  text-decoration: none;
+}
+
+p{
+  margin: auto;
+  margin-bottom: 30px;
+  line-height: 140%;
+  font-size: 1.6rem;
+  &.lg{
+    font-size: 2.4rem;
+  }
 }
 
 h1{
-  font-family: "Milkshake", sans-serif;
+  @extend %milkshake;
   font-weight: 300;
   font-size: 6.4rem;
   text-align: center;
   color: $green;
   background-color: $navy;
-
-  margin: 0px;
   margin-bottom: 40px;
   padding: 20px;
 }
 
 h2{
-  font-family: 'Nunito', sans-serif;
+  strong{
+    font-weight: 600;
+  }
+}
+
+h3{
   font-size: 3.8rem;
   text-align: center;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  text-transform: uppercase;
 }
 
-h2 strong{
-  font-weight: 600;
-}
-
-p{
-  font-family: 'Nunito', sans-serif;
-  width: 50%;
-  min-width: 540px;
-  max-width: 700px;
-  margin: auto;
-  margin-bottom: 30px;
-  line-height: 140%;
-  font-size: 1.6rem;
-}
-
-p.large{
-  font-size: 2.4rem;
-}
-
-.headline{
+h4{
   font-weight: 800;
   font-size: 2rem;
-  margin-bottom: 0px;
-  margin-top: 60px;
 }
-.subheadline{
+
+h5{
   font-weight: 700;
-  margin-bottom: 14px;
+  margin-top: 3px;
+  margin-bottom: 12px;
   font-size: 1.4rem;
-  color: #877d8e;
+  color: $navy-lt;
   text-transform: uppercase;
 }
 
 pre{
+  @extend %hack;
   background-color: $navy;
   border-radius: 7px;
   padding: 5px 10px 20px 10px;
@@ -84,16 +91,10 @@ pre{
 }
 
 code{
-  font-family: 'hack', monospace;
   font-size: 1.2rem;
   color: $white;
   line-height: 150%;
   width: 50%;
-}
-
-#logo{
-  width: 64px;
-  margin: auto;
 }
 
 footer{
