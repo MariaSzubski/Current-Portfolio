@@ -3,4 +3,4 @@ Disallow: /.git
 Disallow: /.ssh
 Disallow: /gdi
 Disallow: /scripts
-Disallow: /css
+Disallow: /stylesheets

@@ -1,8 +1,8 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'not dead', 'Explorer >= 9', '>3%']
 end
 
 # Layouts
@@ -12,6 +12,19 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+
+activate :livereload
+activate :directory_indexes
+activate :relative_assets
+activate :protect_emails
+
+
+
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-8457306-3'
+  ga.test = true
+end
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
