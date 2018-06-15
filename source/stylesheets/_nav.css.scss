@@ -1,0 +1,54 @@
+nav{
+  display: flex;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  justify-content: flex-end;
+  padding: 2em 0em;
+
+  a{
+    display: inline-block;
+    text-align: center;
+    padding: 0.8rem 1.8rem;
+    color: $navy;
+    letter-spacing: .05rem;
+
+    &#nav-menu{
+      display: none;
+    }
+
+    &#nav-contact{
+      border-radius: 20px;
+      background: linear-gradient(
+        to bottom right,
+        adjust-hue($yellow, 10%),
+        $yellow);
+
+      &:hover{
+        background: linear-gradient(
+          to bottom right,
+          adjust-hue($yellow, 10%),
+          adjust-hue($yellow, -5%));
+      }
+    }
+  }
+
+  @media (max-width: 48em){
+    flex-flow: column;
+
+    a{
+      padding: 1.5rem 0rem;
+    }
+
+    & a#nav-menu{
+      display: inline-block;
+    }
+
+    & a#nav-contact{
+      background: none;
+      &:hover{
+        background: none;
+      }
+    }
+  }
+}
