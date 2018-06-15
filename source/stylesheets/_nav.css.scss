@@ -21,14 +21,14 @@ nav{
       border-radius: 20px;
       background: linear-gradient(
         to bottom right,
-        adjust-hue($yellow, 10%),
-        $yellow);
+        adjust-hue($yellow, 8%),
+        adjust-hue($yellow, -10%));
 
       &:hover{
         background: linear-gradient(
           to bottom right,
-          adjust-hue($yellow, 10%),
-          adjust-hue($yellow, -5%));
+          adjust-hue($yellow, 8%),
+          adjust-hue($yellow, -15%));
       }
     }
   }
