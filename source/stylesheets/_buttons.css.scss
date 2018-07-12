@@ -42,7 +42,7 @@ button {
   display: block;
   margin: 2px auto;
   padding: 10px 0px;
-  background-color: $white;
+  background-color: $green;
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -56,9 +56,10 @@ button {
 
   a{
   	padding: 10px 28px;
+    color: $white;
     transition: color .3s ease;
     border-radius: 5px;
-    border: 2px solid $green;
+    border: 2px solid darken($green, 5%);
 
     &:hover{
       text-decoration: none;

@@ -1,6 +1,8 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: $navy-lt;
+    // background-image: url(../img/bg_lines.svg);
     @extend %nunito;
 }
 
@@ -24,7 +26,7 @@ ul, li{
 }
 
 a{
-  color: $navy-lt;
+  color: $green;
   text-decoration: none;
 
   &:hover{
@@ -66,6 +68,7 @@ h3{
   text-align: center;
   font-weight: 200;
   color: $navy;
+  text-shadow: 0px 2px 0px $white;
   // text-transform: uppercase;
 }
 
@@ -79,15 +82,15 @@ h5{
   margin-top: 2px;
   margin-bottom: 12px;
   font-size: 1.3rem;
-  color: $navy-lt;
+  color: $navy-md;
   text-transform: uppercase;
   letter-spacing: 0.02rem;
 }
 
-h6{
+h6, .h6{
   font-weight: 400;
   font-size: 1.2rem;
-  color: $navy-lt;
+  color: $navy-md;
   text-transform: uppercase;
   letter-spacing: 0.02rem;
 }
@@ -112,6 +115,8 @@ code{
 }
 
 footer{
+  background-color: $yellow;
+  border-top: 3px solid $navy;
   text-align: center;
   font-size: 1rem;
   margin-top: 20px;
@@ -151,13 +156,5 @@ details{
   		list-style-type: none;
   	}
 
-  }
-
-  ul{
-    margin-left: 1.4em;
-  }
-
-  li{
-    line-height: 220%;
   }
 }
