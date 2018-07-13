@@ -1,9 +1,18 @@
 html{
-    box-sizing: border-box;
-    font-size: 62.5%;
-    background-color: $navy-lt;
-    // background-image: url(../img/bg_lines.svg);
-    @extend %nunito;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: $navy-lt;
+
+  height: 100%;
+  // background-image: url(../img/bg_lines.svg);
+  @extend %nunito;
+}
+
+body{
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 *, *:before, *:after {
@@ -15,6 +24,10 @@ html{
   box-sizing: inherit;
   font-size: inherit;
   font-family: inherit;
+}
+
+.content{
+  flex: 1 0 auto;
 }
 
 img{
@@ -115,13 +128,14 @@ code{
 }
 
 footer{
+  width: 100%;
   background-color: $yellow;
   border-top: 3px solid $navy;
   text-align: center;
   font-size: 1rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2rem;
   text-transform: uppercase;
+  flex-shrink: 0;
 }
 
 details{

@@ -12,8 +12,10 @@
     <%= partial 'partials/favicon' %>
   </head>
   <body lang="en">
-    <%= partial 'partials/nav' %>
-    <%= yield %>
+    <div class="content">
+      <%= partial 'partials/nav' %>
+      <%= yield %>
+    </div>
     <%= partial 'partials/footer' %>
     <%= google_analytics_tag =%>
   </body>
