@@ -1,8 +1,8 @@
 <nav>
 	<a id="nav-menu">Menu</a>
-	<a href="..">Home</a>
-	<a href="../projects">Projects</a>
-	<a href="../experience">About Me</a>
-	<a href="../involvement">Involvement</a>
-	<a href="../contact" id="nav-contact">Let's Connect</a>
+	<%= link_to 'Home', '/' %>
+	<%= link_to 'Projects', 'projects' %>
+  <%= link_to 'Experience', 'experience' %>
+  <%= link_to 'Involvement', 'involvement' %>
+  <%= link_to 'Let\'s Connect', 'projects', :id => 'nav-contact' %>
 </nav>
