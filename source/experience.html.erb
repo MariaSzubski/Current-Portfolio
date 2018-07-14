@@ -1,30 +1,28 @@
 ---
-title: Experience
+title: Professional Experience
+id: experience
 ---
-<section id="experience">
-  <!-- TO BE FIXED  -->
-  <button><%= link_to 'Download Resume (PDF)', '/assets/MariaSzubski_Resume.pdf'  %></button>
-  <section>
-    <h3>Professional Experience</h3>
-    <div class="container">
-      <%= partial 'content/exp_professional' %>
-    </div>
-  </section>
-  <section>
-    <h3>Co-Op Experience</h3>
-    <div class="container">
-      <%= partial 'content/exp_coop' %>
-    </div>
-  </section>
-  <section>
-    <h3>Education</h3>
-    <div class="container">
-      <article>
-        <h4>Bachelor of Science in Digital Design</h4>
-        <h5><a href="http://www.uc.edu/" target="_blank">University of Cincinnati</a> // College of Design, Architecture, Art, and Planning</h5>
-        <p>Participated in the Professional Practice program, alternating quarters of classes with quarters of work experience in the field of Digital Design.</p>
-        <h6><%= image_tag 'i_date.svg', :alt => 'Date', :class => 'i' %>Class of 2012</h6>
-      </article>
-    </div>
-  </section>
+<button><%= link_to 'Download Resume (PDF)', '/assets/MariaSzubski_Resume.pdf', :target => '_blank'%></button>
+<section>
+  <h3>Professional Experience</h3>
+  <div class="container">
+    <%= partial 'content/exp_professional' %>
+  </div>
+</section>
+<section>
+  <h3>Co-Op Experience</h3>
+  <div class="container">
+    <%= partial 'content/exp_coop' %>
+  </div>
+</section>
+<section>
+  <h3>Education</h3>
+  <div class="container">
+    <article>
+      <h4>Bachelor of Science in Digital Design</h4>
+      <h5><a href="http://www.uc.edu/" target="_blank">University of Cincinnati</a> // College of Design, Architecture, Art, and Planning</h5>
+      <p>Participated in the Professional Practice program, alternating quarters of classes with quarters of work experience in the field of Digital Design.</p>
+      <h6><%= image_tag 'i_date.svg', :alt => 'Date', :class => 'i' %>Class of 2012</h6>
+    </article>
+  </div>
 </section>

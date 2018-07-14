@@ -2,7 +2,6 @@ html{
   box-sizing: border-box;
   font-size: 62.5%;
   background-color: $navy-lt;
-
   height: 100%;
   // background-image: url(../img/bg_lines.svg);
   @extend %nunito;
@@ -75,9 +74,13 @@ h1{
 }
 
 h2{
-  strong{
-    font-weight: 600;
-  }
+  @extend %milkshake;
+  font-weight: 300;
+  font-size: 5.0rem;
+  text-align: center;
+  color: $navy;
+  margin-bottom: 2.8rem;
+  text-shadow: 0rem 0.2rem 0rem $white;
 }
 
 h3{
@@ -86,8 +89,7 @@ h3{
   text-align: center;
   font-weight: 200;
   color: $navy;
-  text-shadow: 0px 2px 0px $white;
-  // text-transform: uppercase;
+  text-shadow: 0rem 0.2rem 0rem $white;
 }
 
 h4{

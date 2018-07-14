@@ -6,16 +6,16 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Maria Szubski • Web Development Consultant" %></title>
+    <title><%= (current_page.data.title ? "#{current_page.data.title} // " : "") + "Maria Szubski • Web Development Consultant" %></title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
     <%= partial 'partials/favicon' %>
   </head>
   <body lang="en">
-    <div class="content">
-      <%= partial 'partials/nav' %>
+    <%= partial 'partials/nav' %>
+    <section class="content" id="<%= current_page.data.id %>">
       <%= yield %>
-    </div>
+    </section>
     <%= partial 'partials/footer' %>
     <%= google_analytics_tag =%>
   </body>

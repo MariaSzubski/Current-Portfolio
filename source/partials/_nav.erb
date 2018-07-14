@@ -1,8 +1,10 @@
 <nav>
 	<a id="nav-menu">Menu</a>
-	<%= link_to 'Home', '/' %>
-	<%= link_to 'Projects', 'projects' %>
-  <%= link_to 'Experience', 'experience' %>
-  <%= link_to 'Involvement', 'involvement' %>
+  <% link_to '/', :class => 'logo' do %>
+    <%= image_tag 'logo.svg', :alt => 'Maria Szubski Digital Logo'%>
+  <% end %>
+	<%= link_to 'Projects', 'projects', :class => ('active' if current_page.path.include? 'projects')%>
+  <%= link_to 'Experience', 'experience', :class => ('active' if current_page.path.include? 'experience') %>
+  <%= link_to 'Involvement', 'involvement', :class => ('active' if current_page.path.include? 'involvement') %>
   <%= link_to 'Let\'s Connect', 'projects', :id => 'nav-contact' %>
 </nav>

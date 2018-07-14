@@ -9,7 +9,6 @@ activate :protect_emails
 set :relative_links, true
 config[:images_dir] = 'img'
 
-
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-8457306-3'
   ga.test = true

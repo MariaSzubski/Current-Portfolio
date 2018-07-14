@@ -1,6 +1,6 @@
 #experience, #involvement{
   section{
-    margin-top: 5em;
+    margin-top: 5rem;
     display: flex;
     flex-flow:column;
   }
@@ -51,6 +51,11 @@
   .i_pres{
     vertical-align: text-top;
   }
+
+  button{
+    display: none;
+  }
+
 }
 
 #involvement{
