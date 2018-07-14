@@ -1,0 +1,8 @@
+<% wrap_layout :layout do %>
+  <section class="header">
+    <h2><%= current_page.data.title %></h2>
+    <h3><%= current_page.data.subtitle %></h3>
+    <%= image_tag current_page.data.hero %>
+  </section>
+  <%= yield %>
+<% end %>

@@ -1,4 +1,4 @@
-<nav>
+<% content_tag :nav, :class => ('dark' if current_page.data.theme == 'dark') do %>
 	<a id="nav-menu">Menu</a>
   <% link_to '/', :class => 'logo' do %>
     <%= image_tag 'logo.svg', :alt => 'Maria Szubski Digital Logo'%>
@@ -7,4 +7,4 @@
   <%= link_to 'Experience', 'experience', :class => ('active' if current_page.path.include? 'experience') %>
   <%= link_to 'Involvement', 'involvement', :class => ('active' if current_page.path.include? 'involvement') %>
   <%= link_to 'Let\'s Connect', 'projects', :id => 'nav-contact' %>
-</nav>
+<% end %>
