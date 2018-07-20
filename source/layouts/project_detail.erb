@@ -2,7 +2,7 @@
   <section class="header">
     <h2><%= current_page.data.title %></h2>
     <h3><%= current_page.data.subtitle %></h3>
-    <%= image_tag current_page.data.hero %>
-  </section>
+    <%= image_tag current_page.data.hero, :alt => current_page.data.title %>
+
   <%= yield %>
 <% end %>

@@ -1,0 +1,115 @@
+---
+layout: project_detail
+theme: dark
+id: proj_detail
+
+title: Style Guide
+subtitle: Documentation Site Template
+hero: proj_styleguide.png
+code: true
+---
+<button>Demo</button><button>GitHub Repo</button>
+</section>
+<section class="content">
+  <section>
+    <h5>
+        JavaScript &nbsp;&bull;&nbsp;
+        AJAX &nbsp;&bull;&nbsp;
+        jQuery &nbsp;&bull;&nbsp;
+        PHP &nbsp;&bull;&nbsp;
+        HTML5 &nbsp;&bull;&nbsp;
+        LESS &nbsp;&bull;&nbsp;
+        Responsive Design
+    </h5>
+  </section>
+  <section>
+    <h3>About This Project</h3>
+    <p class="lg">
+      The Style Guide is a template for a documentation website for a brand or project. It displays font styles, color palette, web components, pattern recommendations. It is built with AJAX and PHP and is responsive at all device sizes. If JavaScript is disabled the site works as standard HTML.
+    </p>
+  </section>
+  <section>
+    <h3>Responsive Design</h3>
+    <div class="card">
+      <article>
+        <p>The design of the Style Guide works across four breakpoints, from wide screen monitors to mobile devices.</p>
+      </article>
+    </div>
+  </section>
+  <section>
+    <h3>Pixel to REM conversion</h3>
+    <div class="card">
+      <article>
+        <p>Users can choose between pixels or rem units. This setting applies site-wide and is saved to local storage. The values are calculated on the fly.</p>
+      </article>
+    </div>
+<pre><code class="JavaScript">
+/*
+	Requires html button with at least two unit options.
+	Unit setting is saved in local storage.
+*/
+
+// PX to REM Conversion
+if (Modernizr.localstorage) {
+	// ----------------- On initial load: check local storange and convert units
+	toggle_pxrem();
+
+	// ----------------- On button press: update localStorage, change button state, and convert units
+	(function pxrem(){
+		$('button').click(function(e){
+			$('button').toggleClass('btn-selected');
+
+			$('#size-px').hasClass('btn-selected') ?
+				localStorage.setItem('pxrem', 'px')
+				: localStorage.setItem('pxrem', 'rem');
+
+			convert();
+		});
+	})();
+
+	// ----------------- Check localStorage and convert units
+	function toggle_pxrem(){
+		(localStorage.pxrem == undefined) ? localStorage.setItem('pxrem', 'px') : null;
+
+		(localStorage.pxrem == 'rem') ?
+			($('#size-px').removeClass('btn-selected'),
+			$('#size-rem').addClass('btn-selected'))
+			: null;
+
+		(localStorage.pxrem == 'px') ?
+			($('#size-rem').removeClass('btn-selected'),
+			$('#size-px').addClass('btn-selected'))
+			: null;
+
+		convert();
+	}
+
+	// ----------------- Convert units
+	function convert(){
+		// rem -> px
+		if (localStorage.pxrem == 'px'){
+			$('.pxrem').each(function(){
+				let px = $(this).html();
+				if (px.includes('rem')) {
+					let px_arr = px.match(/[^rem]+|rem/g);
+					px_arr[0] = px_arr[0] * 16;
+					px_arr[1] = 'px';
+					$(this).html(px_arr.join(''));
+				};
+			});
+		}
+		// px -> rem
+		else if (localStorage.pxrem == 'rem'){
+			$('.pxrem').each(function(){
+				let rem = $(this).html();
+				let rem_arr = rem.match(/[^px]+|px/g);
+				rem_arr[0] = rem_arr[0] / 16;
+				rem_arr[1] = 'rem';
+				$(this).html(rem_arr.join(''));
+			});
+		};
+	};
+};
+</code></pre>
+  </section>
+</section>

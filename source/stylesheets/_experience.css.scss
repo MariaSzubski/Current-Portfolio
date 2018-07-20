@@ -5,15 +5,9 @@
     flex-flow:column;
   }
 
-  article{
-    padding: 3rem;
-    border-bottom: 1px solid darken($navy-lt, 5%);
-    &:last-of-type{
-      border-bottom: none;
-    }
-    p{
-      margin-bottom: 0px;
-    }
+  h5{
+    margin-top: 2px;
+    margin-bottom: 12px;
   }
 
   h6{

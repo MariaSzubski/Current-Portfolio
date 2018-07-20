@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,7 +10,7 @@
     <%= javascript_include_tag "site" %>
     <%= partial 'partials/favicon' %>
   </head>
-  <body lang="en">
+  <body>
     <%= partial 'partials/nav' %>
     <section class="content" id="<%= current_page.data.id %>">
       <%= yield %>

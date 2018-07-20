@@ -6,7 +6,7 @@ activate :directory_indexes
 activate :relative_assets
 activate :protect_emails
 
-set :relative_links, true
+set :relative_links, false
 config[:images_dir] = 'img'
 
 activate :google_analytics do |ga|
