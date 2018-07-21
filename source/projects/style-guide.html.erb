@@ -38,78 +38,80 @@ code: true
   </section>
   <section>
     <h3>Pixel to REM conversion</h3>
-    <div class="card">
-      <article>
-        <p>Users can choose between pixels or rem units. This setting applies site-wide and is saved to local storage. The values are calculated on the fly.</p>
-      </article>
-    </div>
-<pre><code class="JavaScript">
-/*
-	Requires html button with at least two unit options.
-	Unit setting is saved in local storage.
-*/
+      <p class="lg">Users can choose between pixels or rem units. This setting applies site-wide and is saved to local storage. The values are calculated on the fly.</p>
 
-// PX to REM Conversion
-if (Modernizr.localstorage) {
-	// ----------------- On initial load: check local storange and convert units
-	toggle_pxrem();
 
-	// ----------------- On button press: update localStorage, change button state, and convert units
-	(function pxrem(){
-		$('button').click(function(e){
-			$('button').toggleClass('btn-selected');
+    <pre class="language-markup"><h4>HTML Snippet</h4><code><!--
+      <div class="btn-group" role="group">
+        <span>Units:</span>
+        <button type="button" id="size-px">px</button><button type="button" id="size-rem">rem</button>
+      </div>
+    --></code></pre>
+    <pre class="language-javascript"><h4>JavaScript</h4><code>
+      /* Requires html button with at least two unit options.
+          Unit setting is saved in local storage. */
 
-			$('#size-px').hasClass('btn-selected') ?
-				localStorage.setItem('pxrem', 'px')
-				: localStorage.setItem('pxrem', 'rem');
+      if (Modernizr.localstorage) {
 
-			convert();
-		});
-	})();
+      	// ON INITIAL LOAD: Check local storage and convert units to saved preference
+      	toggle_pxrem();
 
-	// ----------------- Check localStorage and convert units
-	function toggle_pxrem(){
-		(localStorage.pxrem == undefined) ? localStorage.setItem('pxrem', 'px') : null;
+      	// ON BUTTON PRESS: Change button state, update localStorage, and convert units
+      	(function pxrem(){
+      		$('button').click(function(e){
+      			$('button').toggleClass('btn-selected');
+      			$('#size-px').hasClass('btn-selected') ?
+      				localStorage.setItem('pxrem', 'px') : localStorage.setItem('pxrem', 'rem');
+      			convert();
+      		});
+      	})();
 
-		(localStorage.pxrem == 'rem') ?
-			($('#size-px').removeClass('btn-selected'),
-			$('#size-rem').addClass('btn-selected'))
-			: null;
+      	// Check localStorage before converting units
+      	function toggle_pxrem(){
+      		(localStorage.pxrem == undefined) ? localStorage.setItem('pxrem', 'px') : null;
 
-		(localStorage.pxrem == 'px') ?
-			($('#size-rem').removeClass('btn-selected'),
-			$('#size-px').addClass('btn-selected'))
-			: null;
+      		(localStorage.pxrem == 'rem') ?
+      			($('#size-px').removeClass('btn-selected'),
+      			$('#size-rem').addClass('btn-selected'))
+      			: null;
 
-		convert();
-	}
+      		(localStorage.pxrem == 'px') ?
+      			($('#size-rem').removeClass('btn-selected'),
+      			$('#size-px').addClass('btn-selected'))
+      			: null;
 
-	// ----------------- Convert units
-	function convert(){
-		// rem -> px
-		if (localStorage.pxrem == 'px'){
-			$('.pxrem').each(function(){
-				let px = $(this).html();
-				if (px.includes('rem')) {
-					let px_arr = px.match(/[^rem]+|rem/g);
-					px_arr[0] = px_arr[0] * 16;
-					px_arr[1] = 'px';
-					$(this).html(px_arr.join(''));
-				};
-			});
-		}
-		// px -> rem
-		else if (localStorage.pxrem == 'rem'){
-			$('.pxrem').each(function(){
-				let rem = $(this).html();
-				let rem_arr = rem.match(/[^px]+|px/g);
-				rem_arr[0] = rem_arr[0] / 16;
-				rem_arr[1] = 'rem';
-				$(this).html(rem_arr.join(''));
-			});
-		};
-	};
-};
-</code></pre>
+      		convert();
+      	}
+
+      	// Convert units
+      	function convert(){
+
+      		/* rem -> px */
+      		if (localStorage.pxrem == 'px'){
+      			$('.pxrem').each(function(){
+      				let px = $(this).html();
+      				if (px.includes('rem')) {
+      					let px_arr = px.match(/[^rem]+|rem/g);
+      					px_arr[0] = px_arr[0] * 16;
+      					px_arr[1] = 'px';
+      					$(this).html(px_arr.join(''));
+      				};
+      			});
+      		}
+
+      		/* px -> rem */
+      		else if (localStorage.pxrem == 'rem'){
+      			$('.pxrem').each(function(){
+      				let rem = $(this).html();
+      				let rem_arr = rem.match(/[^px]+|px/g);
+      				rem_arr[0] = rem_arr[0] / 16;
+      				rem_arr[1] = 'rem';
+      				$(this).html(rem_arr.join(''));
+      			});
+      		};
+
+      	};
+      };
+    </code></pre>
   </section>
 </section>
