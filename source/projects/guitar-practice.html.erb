@@ -6,9 +6,155 @@ id: proj_detail
 title: Guitar Practice
 subtitle: Skill Log & Song Tracker
 hero: proj_guitar.png
+code: true
 ---
-<!-- <button>Demo</button><button>GitHub Repo</button> -->
-</section>
-<section class="card">
-  <p class="lg"><%= lorem.paragraphs 5 %>
+<section class="content">
+  <section id="headline">
+    <h3>About This Project</h3>
+    <h5>
+        JavaScript &nbsp;&bull;&nbsp;
+        Data Visualization &nbsp;&bull;&nbsp;
+        Responsive Design &nbsp;&bull;&nbsp;
+        InVision
+    </h5>
+    <p class="lg">
+      Guitar Practice Log is a web app that tracks skill progress and displays song details. The <em>1 Minute Chord Changes</em> section logs finger exercises and charts progress over time. The Song List section displays song chords and strumming patterns.
+    </p>
+    <div class="btns">
+      <% link_to 'https://github.com/MariaSzubski/GuitarPractice', :class => 'btn', :target => '_blank' do %>GitHub Repo<% end %>
+      <% link_to 'https://github.com/MariaSzubski/GuitarPractice/wiki', :class => 'btn', :target => '_blank' do %>Process Wiki<% end %>
+    </div>
+  </section>
+  <section>
+    <h3>Practice Timer</h3>
+    <pre class="language-markup"><h4>HTML Snippet</h4><code><!--
+      <section id="timer_container">
+         <img src="img/timeTrack.png">
+         <div id="startReset">
+            <div id="n_timer">1:00</div>
+            <img src="img/play.svg" alt="Start timer" id="toggle_btn">
+         </div>
+         <canvas id="ringTimer" width="174" height="174"></canvas>
+      </section>
+    --></code></pre>
+    <pre class="language-javascript"><h4>Timer Numbers</h4><code>
+      // ------------------------------------- Start & Reset Functions
+      function startTimer() {
+      	sec = 59;
+      	countdown = setInterval(currentTime, 1000);
+      	toggle = false;
+      	startReset.innerHTML = 'Reset';
+      }
+
+      function resetTimer(){
+      	clearInterval(countdown);
+      	toggle = true;
+      	startReset.innerHTML = 'Start';
+      	timer.innerHTML = "1:00";
+      }
+
+      // ------------------------------------- Countdown Output
+      function currentTime() {
+      	switch(true){
+      		case (sec < 10 && sec > 0):
+      			timer.innerHTML = 0 + ':0' + sec;
+      			break;
+      		case (sec === 0):
+      			timer.innerHTML = 0 + ':0' + sec;
+      			clearInterval(countdown);
+      			break;
+      		default:
+      			timer.innerHTML = 0 + ':' + sec;
+      			break;
+      	}
+      	sec--;
+      }
+
+      // ------------------------------------- Variables
+      var countdown, sec;
+      var toggle = true;
+      var timer = document.getElementById('timer_container');
+      var startReset = document.getElementById('startReset');
+
+      // ------------------------------------- Start/Reset Events
+      startReset.onclick = function(){
+      	switch(toggle){
+      		case true:
+      			startTimer();
+      			break;
+      		case false:
+      			resetTimer();
+      			break;
+      	}
+      };
+    </code></pre>
+    <pre class="language-javascript"><h4>Timer Arc Animation</h4><code>
+      var ringTimer = document.getElementById('ringTimer').getContext('2d');
+      var rSec = 0;
+      var length_i, endPoint, arcVal;
+
+      function drawRingTimer(){
+      	// ------------------------------------- Reset Canvas
+      	ringTimer.clearRect(0,0,174,174);
+
+      	// ------------------------------------- Draw outer track ring
+      	ringTimer.beginPath();
+      	ringTimer.arc (
+      		87,				// x position
+      		87,				// y position
+      		87,				// radius
+      		0,				// start
+      		(2 * Math.PI),	// end
+      		true			// counter-clockwise
+      	);
+      	ringTimer.strokeStyle = '#999';
+      	ringTimer.fillStyle = '#ddd';
+      	ringTimer.lineWidth = 1;
+      	ringTimer.stroke();
+      	ringTimer.fill();
+
+      	// ------------------------------------- Draw inner track ring
+      	ringTimer.beginPath();
+      	ringTimer.arc (
+      		87,				// x position
+      		87,				// y position
+      		77,				// radius
+      		0,				// start
+      		(2 * Math.PI),	// end
+      		true			// counter-clockwise
+      	);
+      	ringTimer.fillStyle = '#fff';
+      	ringTimer.stroke();
+      	ringTimer.fill();
+
+      	// ------------------------------------- Increment ring length
+      	/* length change per frame = [ (radian multiplier) / (60 seconds * frames per second) ] * (elapsed seconds) */
+      	length_i = ( 2 / (60*25) ) * rSec;
+
+      	/* count from top of circle) */
+      	arcVal = 1.5 + length_i;
+
+      	/* calculate radians */
+      	endPoint = arcVal * Math.PI;
+
+
+      	// ------------------------------------- Draw timer ring
+      	ringTimer.beginPath();
+      	ringTimer.arc (
+      		87,					// x position
+      		87,					// y position
+      		82,					// radius
+      		(1.5 * Math.PI),	// start
+      		endPoint,			// end
+      		true				// counter-clockwise
+      	);
+      	ringTimer.lineWidth = 10;
+      	ringTimer.strokeStyle = 'teal';
+      	ringTimer.stroke();
+      	rSec++;
+      }
+
+      arcAnim = setInterval(drawRingTimer, 40);
+    </code></pre>
+  </section>
 </section>

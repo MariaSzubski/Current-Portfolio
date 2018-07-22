@@ -53,9 +53,10 @@ p{
   line-height: 140%;
   font-size: 1.6rem;
   &.lg{
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     line-height: 145%;
   }
+  &.detail{color:$navy-md;}
 }
 
 .lt{
@@ -120,7 +121,7 @@ footer{
   border-top: 3px solid $navy;
   text-align: center;
   font-size: 1rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-transform: uppercase;
   flex-shrink: 0;
 }

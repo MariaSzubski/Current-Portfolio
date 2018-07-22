@@ -1,6 +1,7 @@
 #experience, #involvement{
   section{
-    margin-top: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 9rem;
     display: flex;
     flex-flow:column;
   }
@@ -35,21 +36,13 @@
   button{
     display: none;
   }
-
-}
-
-#involvement{
+// split
   .lg{
     width: 70%;
     min-width: 540px;
     max-width: 740px;
     margin-top: 1em;
   }
-
-  // h6, h5{
-  //   margin-top: 0.5rem;
-  //   margin-bottom: 0.75rem;
-  // }
 
   details{
     margin-top: 1.1em;

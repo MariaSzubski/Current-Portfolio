@@ -8,10 +8,9 @@ subtitle: Documentation Site Template
 hero: proj_styleguide.png
 code: true
 ---
-<button>Demo</button><button>GitHub Repo</button>
-</section>
 <section class="content">
-  <section>
+  <section id="headline">
+    <h3>About This Project</h3>
     <h5>
         JavaScript &nbsp;&bull;&nbsp;
         AJAX &nbsp;&bull;&nbsp;
@@ -21,26 +20,19 @@ code: true
         LESS &nbsp;&bull;&nbsp;
         Responsive Design
     </h5>
-  </section>
-  <section>
-    <h3>About This Project</h3>
-    <p class="lg">
-      The Style Guide is a template for a documentation website for a brand or project. It displays font styles, color palette, web components, pattern recommendations. It is built with AJAX and PHP and is responsive at all device sizes. If JavaScript is disabled the site works as standard HTML.
+    <p class="lg deta">
+      The Style Guide is a template for project documentation. It displays font styles, color palettes, web components, and design patterns. It's built to be responsive across all device sizes with AJAX and PHP, with fallbacks for users who have JavaScript disabled.
     </p>
-  </section>
-  <section>
-    <h3>Responsive Design</h3>
-    <div class="card">
-      <article>
-        <p>The design of the Style Guide works across four breakpoints, from wide screen monitors to mobile devices.</p>
-      </article>
+    <div class="btns">
+      <% link_to '/assets/style-guide', :class => 'btn', :target => '_blank' do %>Project Demo<% end %>
+      <% link_to 'https://github.com/MariaSzubski/style-guide', :class => 'btn', :target => '_blank' do %>Github Repo<% end %>
     </div>
   </section>
   <section>
-    <h3>Pixel to REM conversion</h3>
-      <p class="lg">Users can choose between pixels or rem units. This setting applies site-wide and is saved to local storage. The values are calculated on the fly.</p>
-
-
+    <h3>Pixel/Rem Unit Conversion</h3>
+    <p class="detail">
+      Users can switch between pixels and rem measurements using the switch at the top of the screen. This setting applies site-wide and is saved to local storage.
+    </p>
     <pre class="language-markup"><h4>HTML Snippet</h4><code><!--
       <div class="btn-group" role="group">
         <span>Units:</span>
@@ -114,4 +106,5 @@ code: true
       };
     </code></pre>
   </section>
+  <!-- <% link_to '/projects' do %><%= image_tag 'i_arrow.svg', :class => 'i_arrow', :alt => 'Back Arrow' %> Back to Projects List<% end %> -->
 </section>

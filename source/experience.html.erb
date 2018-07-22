@@ -2,11 +2,18 @@
 title: Professional Experience
 id: experience
 ---
-<button><%= link_to 'Download Resume (PDF)', '/assets/MariaSzubski_Resume.pdf', :target => '_blank'%></button>
+<%= link_to 'Download Resume (PDF)', '/assets/MariaSzubski_Resume.pdf', :class => 'btn', :target => '_blank'%>
 <section>
   <h3>Professional Experience</h3>
   <div class="card">
     <%= partial 'content/exp_professional' %>
+  </div>
+</section>
+<section>
+  <h3>Girl Develop It Cincinnati</h3>
+  <p class="lg detail">Girl Develop It is a non-profit that empowers women from diverse backgrounds through affordable, judgment-free technology classes. I've been involved with the Cincinnati Chapter as a student, volunteer, organizer, and instuctor since 2015.</p>
+  <div class="card">
+    <%= partial 'content/exp_gdi' %>
   </div>
 </section>
 <section>
