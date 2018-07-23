@@ -36,6 +36,23 @@
       margin: 8rem auto 11rem auto;
   }
 
+  .video{
+    width: 640px;
+    height: 360px;
+    margin: 0 auto;
+
+    &.sq{
+      width: 640px;
+      height: 480px;
+    }
+
+    iframe{
+      width: 100%;
+      height: 100%;
+      frameborder: 0;
+    }
+  }
+
   #headline{
     display: flex;
     flex-flow: column;
@@ -70,7 +87,7 @@
   }
 
   .i_arrow{
-    transform: rotate(180deg);
+    transform: rotate(2000deg);
   }
 
 }
