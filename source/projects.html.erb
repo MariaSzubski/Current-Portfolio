@@ -6,7 +6,9 @@ id: projects
 <div class="container">
 
   <% link_to 'insight' do %>
-    <%= image_tag 'proj_insight.png', :alt => 'Insight' %>
+    <%= image_tag  data.aws + 'insight/hero@-1x.png', :alt => 'InSight App',
+        :srcset => data.aws + 'insight/hero@-1x.png,' +
+      	           data.aws + 'insight/hero@-2x.png 2x' %>
     <div class="label">
       <h4>Insight App</h4>
       <h5>Phonegap • jQuery • User Testing</h5>
@@ -14,7 +16,9 @@ id: projects
   <% end %>
 
   <% link_to 'style-guide' do %>
-    <%= image_tag 'proj_styleguide.png', :alt => 'Style Guide Template' %>
+    <%= image_tag  data.aws + 'style-guide/hero@-1x.png', :alt => 'Style Guide',
+        :srcset => data.aws + 'style-guide/hero@-1x.png,' +
+      	           data.aws + 'style-guide/hero@-2x.png 2x' %>
     <div class="label">
       <h4>Style Guide</h4>
       <h5>PHP • AJAX • ES6 • Responsive Design</h5>
@@ -22,7 +26,9 @@ id: projects
   <% end %>
 
   <% link_to 'guitar-practice' do %>
-    <%= image_tag 'proj_guitar.png', :alt => 'Guitar Practice Log' %>
+    <%= image_tag  data.aws + 'guitar-practice/hero@-1x.png', :alt => 'Style Guide',
+        :srcset => data.aws + 'guitar-practice/hero@-1x.png,' +
+      	           data.aws + 'guitar-practice/hero@-2x.png 2x' %>
     <div class="label">
       <h4>Guitar Practice Log</h4>
       <h5>JavaScript • Mobile UI Design • InVision</h5>
@@ -30,26 +36,12 @@ id: projects
   <% end %>
 
   <% link_to 'ikea-rfid' do %>
-    <%= image_tag 'proj_ikea.png', :alt => 'IKEA RFID Experience' %>
+    <%= image_tag  data.aws + 'ikea/hero@-1x.png', :alt => 'Style Guide',
+        :srcset => data.aws + 'ikea/hero@-1x.png,' +
+      	           data.aws + 'ikea/hero@-2x.png 2x' %>
     <div class="label">
       <h4>IKEA RFID Experience</h4>
       <h5>UI Design • Wayfinding •  Animation</h5>
-    </div>
-  <% end %>
-
-  <% link_to 'javascript' do %>
-    <%= image_tag 'proj_javascript.png', :alt => 'JavaScript Snippets' %>
-    <div class="label">
-      <h4>JavaScript Snippets</h4>
-      <h5>ES6 • jQuery</h5>
-    </div>
-  <% end %>
-
-  <% link_to 'urban-walls' do %>
-    <%= image_tag 'proj_urbanwalls.png', :alt => 'Urban Walls' %>
-    <div class="label">
-      <h4>Urban Walls</h4>
-      <h5>Storytelling • Animation</h5>
     </div>
   <% end %>
 

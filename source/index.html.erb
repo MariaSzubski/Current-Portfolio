@@ -1,4 +1,9 @@
-<%= image_tag data.aws + 'index/headshot.jpg', :alt => 'Maria Szubski' %>
+<%= image_tag  data.aws + 'index/headshot.jpg', :alt => 'Maria Szubski', :class => 'headshot',
+    :srcset => data.aws + 'index/headshot.jpg,' +
+  	           data.aws + 'index/headshot@2x.jpg 2x,' +
+  	           data.aws + 'index/headshot@3x.jpg 3x,'+
+  	           data.aws + 'index/headshot@4x.jpg 4x' %>
+
 <h1>Maria Szubski</h1>
 <h2>Front-End Developer</h2>
 <p>// SOCIAL LINKS</p>

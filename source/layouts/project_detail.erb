@@ -2,7 +2,9 @@
   <section class="header">
     <h2><%= current_page.data.title %></h2>
     <h3><%= current_page.data.subtitle %></h3>
-    <%= image_tag current_page.data.hero, :alt => current_page.data.title %>
+    <%= image_tag  "#{data.aws}#{current_page.data.bkt}/hero@1x.png", :alt => current_page.data.title,
+        :srcset => "#{data.aws}#{current_page.data.bkt}/hero@1x.png," +
+      	           "#{data.aws}#{current_page.data.bkt}/hero@2x.png 2x" %>
   </section>
   <%= yield %>
 <% end %>
