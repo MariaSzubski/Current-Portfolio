@@ -7,9 +7,20 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= (current_page.data.title ? "#{current_page.data.title} // " : "") + "Maria Szubski • Web Development Consultant" %></title>
     <%= stylesheet_link_tag "site" %>
-    <%= stylesheet_link_tag "prism" if current_page.data.code == true %>
+
+    <% if current_page.data.code %>
+      <%= stylesheet_link_tag "prism" %>
+      <%= javascript_include_tag "prism" %>
+    <% end %>
+
+    <% if current_page.data.slides %>
+      <%= stylesheet_link_tag "slick" %>
+      <%= javascript_include_tag "//code.jquery.com/jquery-1.11.0.min.js" %>
+      <%= javascript_include_tag "//code.jquery.com/jquery-migrate-1.2.1.min.js" %>
+      <%= javascript_include_tag "slick" %>
+    <% end %>
+
     <%= javascript_include_tag "site" %>
-    <%= javascript_include_tag "prism" if current_page.data.code == true %>
     <%= partial 'partials/favicon' %>
   </head>
   <body>

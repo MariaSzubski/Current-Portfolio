@@ -1,3 +1,7 @@
+---
+id: index
+slides: true
+---
 <%= image_tag  data.aws + 'index/headshot.jpg', :alt => 'Maria Szubski', :class => 'headshot',
     :srcset => data.aws + 'index/headshot.jpg,' +
   	           data.aws + 'index/headshot@2x.jpg 2x,' +
@@ -8,5 +12,8 @@
 <h2>Front-End Developer</h2>
 <p>// SOCIAL LINKS</p>
 <p>// SKILLS</p>
-<p>// RECOMENDATIONS</p>
+<section>
+  <h3>Recognition</h3>
+  <%= partial 'content/testimonials' %>
+</section>
 <p>// CONTACT FORM</p>

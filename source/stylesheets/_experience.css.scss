@@ -19,28 +19,16 @@
     margin-top: 0.8rem;
   }
 
-  .i{
-    vertical-align: text-bottom;
-    margin-right: 0.8rem;
-  }
-
-  .i_loc{
-    margin-left: 2.2rem;
-    margin-right: 0.6rem;
-  }
-
-  .i_pres{
-    vertical-align: text-top;
-  }
-
   button{
     display: none;
   }
+
 // split
   .lg{
     width: 70%;
     min-width: 540px;
-    max-width: 740px;
+    max-width: 960px;
+    text-align: center;
     margin-top: 1em;
   }
 
