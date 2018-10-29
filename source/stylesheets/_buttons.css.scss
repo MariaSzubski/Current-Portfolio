@@ -1,38 +1,32 @@
 .logo{
-  width: 64px;
-  margin: auto;
+  width: 6.4rem;
 }
 
 #social-links {
-	& ul {
-		display: flex;
-    margin: auto;
-	}
-
-	& li {
-		flex: 1;
-	}
+	display: flex;
+  max-width: 40rem;
+  margin: 3rem auto;
 
 	& a {
+    flex: 0 0 calc(25% - 0.6rem);
 		display: flex;
 		flex-flow: column;
 		justify-content: center;
 		align-items: center;
-		margin: 0px 12px;
 		color: $navy;
 		padding: 0px;
 		min-width: 80px;
     img{
-      width:32px;
+      width: 4.8rem;
     }
 		&:hover img {
-			margin-top: -34px;
+			margin-top: -5.1rem;
 			cursor: pointer;
 		}
 	}
 
 	& div {
-		height: 34px;
+		height: 5.1rem;
 		margin-bottom: 8px;
 		overflow: hidden;
 	}

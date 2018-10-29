@@ -2,19 +2,22 @@
   .container{
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem 0rem;
-    padding: 0rem 1.4rem;
+    justify-content: space-between;
+    margin: 1.4rem 0rem;
+    @media (min-width: $screen-sm){ margin: 1.4rem 2.8rem; }
   }
 
   a{
-    flex: 1;
+    display: block;
     position: relative;
-    min-width: 30%;
     height: 36rem;
-    margin: 1.4em;
+    margin: 1.4rem 0rem;
     box-shadow: 0px 4px 10px rgba(0,0,20,.15);
     border-radius: 4px;
     background-color: $navy;
+    flex: 0 1 100%;
+    @media (min-width: $screen-sm){ flex-basis: calc(50% - 1.4rem); }
+    @media (min-width: $screen-lg){ flex-basis: calc(33% - 1.4rem); }
 
     img{
       object-fit: contain;
@@ -31,7 +34,11 @@
       }
       .label{
         background-color: lighten($navy, 7%);
-        h4,h5{ color: $white;}
+        transition: background-color 0.3s ease-in-out;
+        h4,h5{
+          color: $white;
+          transition: color 0.6s ease-in-out;
+        }
       }
     }
   }
@@ -42,8 +49,12 @@
     width: 100%;
     padding: 2rem;
     background-color: white;
-    h4, h5 { margin-bottom:0.2rem;}
+    transition: background-color 0.3s ease-in-out;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
+    h4, h5 {
+      margin-bottom: 0.2rem;
+      transition: color 0.6s ease-in-out;
+    }
   }
 }

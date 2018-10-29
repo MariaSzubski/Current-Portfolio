@@ -1,7 +1,7 @@
 <% content_tag :nav, :class => ('dark' if current_page.data.theme == 'dark') do %>
 	<a id="nav-menu">Menu</a>
   <% link_to '/', :class => 'logo' do %>
-    <%= image_tag 'logo.svg', :alt => 'Maria Szubski Digital Logo'%>
+    <%= image_tag 'logo_pink.svg', :alt => 'Maria Szubski Digital Logo'%>
   <% end %>
 	<%= link_to 'Projects', 'projects', :class => ('active' if current_page.path.include? 'projects')%>
   <%= link_to 'Experience', 'experience', :class => ('active' if current_page.path.include? 'experience') %>
