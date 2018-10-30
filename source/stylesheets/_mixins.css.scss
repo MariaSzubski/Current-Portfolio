@@ -5,17 +5,21 @@ $navy-lt: #EDEFF6;
 $green: #00AC98;
 $white: #FFFFFF;
 $pink: #F3695A;
-$yellow: #FECA67;
+$yellow: #fCC457;
+$blue: #272580;
 
 // Fonts
 %nunito{
   font-family: Nunito, 'Century Gothic', 'Lucida Grande', sans-serif;
 }
-
 %milkshake{
   font-family: Milkshake, 'Bookman Old Style', 'Century Gothic', serif;
 }
-
 %hack{
   font-family: Hack, Courier, monospace;
 }
+
+// Screen Sizes
+$screen-sm: 640px;
+$screen-md: 1024px;
+$screen-lg: 1280px;

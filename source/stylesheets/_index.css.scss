@@ -1,8 +1,41 @@
 #index{
+
+  .headshot{
+    display: block;
+    margin: 3rem auto;
+    border-radius: 100%;
+    border: 0.5rem solid $white;
+    box-shadow: 0px 4px 10px rgba(0,0,20,.15);
+  }
+
+  h1{
+    background: none;
+    color: $navy;
+    padding: 0rem;
+    margin-bottom: 0rem;
+    font-size: 4rem;
+  }
+
+  h2{
+    @extend %nunito;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $navy;
+  }
+
+  section.recognition{
+    background: $blue;
+    padding-top: 2rem;
+    h3{
+      color: $yellow;
+      text-shadow: none;
+    }
+  }
+
   .slideshow{
     margin: 2rem;
-    background-color: $white;
-    box-shadow: 0rem 0.5rem 1.5rem rgba(0,0,20,.2);
+    // background-color: $navy;
+    // box-shadow: 0rem 0.5rem 1.5rem rgba(0,0,20,.2);
     // display: flex;
     // flex-direction: row;
   }
@@ -20,7 +53,7 @@
     }
 
     h4{
-      color: $pink;
+      color: $green;
     }
 
     h6{
@@ -28,6 +61,7 @@
       font-weight: 600;
       letter-spacing: 1px;
       margin-top: .8rem;
+      color: $navy-lt;
       img{
         display: inline-block;
       }
@@ -37,6 +71,7 @@
       font-size: 2.6rem;
       line-height: 148%;
       margin-top: 4rem;
+      color: $navy-lt;
     }
   }
 
